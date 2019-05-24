@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`alphaVantage.module crypto daily {"symbol":"BTC","market":"CNY"} 1`] = `
+exports[`crypto daily {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -27,7 +27,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module crypto exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
+exports[`crypto exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
 Object {
   "ask_price": null,
   "bid_price": null,
@@ -41,7 +41,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module crypto exchangeRates {"from_currency":"USD","to_currency":"JPY"} 1`] = `
+exports[`crypto exchangeRates {"from_currency":"USD","to_currency":"JPY"} 1`] = `
 Object {
   "ask_price": null,
   "bid_price": null,
@@ -55,7 +55,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"daily","outputsize":"full"} 1`] = `
+exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"daily","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -82,7 +82,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"daily"} 1`] = `
+exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -109,7 +109,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"monthly"} 1`] = `
+exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"monthly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -136,7 +136,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"weekly"} 1`] = `
+exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"weekly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -163,7 +163,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module crypto monthly {"symbol":"BTC","market":"CNY"} 1`] = `
+exports[`crypto monthly {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -190,7 +190,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module crypto weekly {"symbol":"BTC","market":"CNY"} 1`] = `
+exports[`crypto weekly {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -217,7 +217,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data daily {"symbol":"MSFT","outputsize":"full"} 1`] = `
+exports[`data daily {"symbol":"MSFT","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -237,7 +237,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data daily {"symbol":"MSFT"} 1`] = `
+exports[`data daily {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -257,7 +257,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data daily_adjusted {"symbol":"MSFT","outputsize":"full"} 1`] = `
+exports[`data daily_adjusted {"symbol":"MSFT","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -280,7 +280,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data daily_adjusted {"symbol":"MSFT"} 1`] = `
+exports[`data daily_adjusted {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -303,7 +303,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries {"symbol":"MSFT","interval":"5min","outputsize":"full"} 1`] = `
+exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"5min","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -324,7 +324,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries {"symbol":"MSFT","interval":"5min"} 1`] = `
+exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"5min"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -345,7 +345,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries {"symbol":"MSFT","interval":"daily"} 1`] = `
+exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -365,7 +365,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries {"symbol":"MSFT","interval":"monthly"} 1`] = `
+exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"monthly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -384,7 +384,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries {"symbol":"MSFT","interval":"weekly"} 1`] = `
+exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"weekly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -403,7 +403,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries {"symbol":"MSFT","outputsize":"full","interval":"daily"} 1`] = `
+exports[`data exchangeTimeSeries {"symbol":"MSFT","outputsize":"full","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -423,7 +423,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"daily"} 1`] = `
+exports[`data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -446,7 +446,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"monthly"} 1`] = `
+exports[`data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"monthly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -467,7 +467,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"weekly"} 1`] = `
+exports[`data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"weekly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -488,7 +488,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data exchangeTimeSeries_adjusted {"symbol":"MSFT","outputsize":"full","interval":"daily"} 1`] = `
+exports[`data exchangeTimeSeries_adjusted {"symbol":"MSFT","outputsize":"full","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -511,7 +511,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data intraday {"symbol":"MSFT","interval":"5min","outputsize":"full"} 1`] = `
+exports[`data intraday {"symbol":"MSFT","interval":"5min","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -532,7 +532,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data intraday {"symbol":"MSFT","interval":"5min"} 1`] = `
+exports[`data intraday {"symbol":"MSFT","interval":"5min"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -553,7 +553,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data monthly {"symbol":"MSFT"} 1`] = `
+exports[`data monthly {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -572,7 +572,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data monthly_adjusted {"symbol":"MSFT"} 1`] = `
+exports[`data monthly_adjusted {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -593,7 +593,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data quote {"symbol":"300135.SZ"} 1`] = `
+exports[`data quote {"symbol":"300135.SZ"} 1`] = `
 Object {
   "change": null,
   "change_percent": null,
@@ -609,7 +609,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data quote {"symbol":"MSFT"} 1`] = `
+exports[`data quote {"symbol":"MSFT"} 1`] = `
 Object {
   "change": null,
   "change_percent": null,
@@ -625,7 +625,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data search {"keywords":"BA"} 1`] = `
+exports[`data search {"keywords":"BA"} 1`] = `
 Array [
   Object {
     "currency": null,
@@ -641,7 +641,7 @@ Array [
 ]
 `;
 
-exports[`alphaVantage.module data search {"keywords":"Micro"} 1`] = `
+exports[`data search {"keywords":"Micro"} 1`] = `
 Array [
   Object {
     "currency": null,
@@ -657,7 +657,7 @@ Array [
 ]
 `;
 
-exports[`alphaVantage.module data search {"keywords":"sony"} 1`] = `
+exports[`data search {"keywords":"sony"} 1`] = `
 Array [
   Object {
     "currency": null,
@@ -673,7 +673,7 @@ Array [
 ]
 `;
 
-exports[`alphaVantage.module data search {"keywords":"xiaomi"} 1`] = `
+exports[`data search {"keywords":"xiaomi"} 1`] = `
 Array [
   Object {
     "currency": null,
@@ -689,7 +689,7 @@ Array [
 ]
 `;
 
-exports[`alphaVantage.module data weekly {"symbol":"MSFT"} 1`] = `
+exports[`data weekly {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -708,7 +708,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module data weekly_adjusted {"symbol":"MSFT"} 1`] = `
+exports[`data weekly_adjusted {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -729,7 +729,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex daily {"from_symbol":"EUR","to_symbol":"USD","outputsize":"full"} 1`] = `
+exports[`forex daily {"from_symbol":"EUR","to_symbol":"USD","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -749,7 +749,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex daily {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
+exports[`forex daily {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -769,7 +769,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
+exports[`forex exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
 Object {
   "ask_price": null,
   "bid_price": null,
@@ -783,7 +783,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex exchangeRates {"from_currency":"USD","to_currency":"JPY"} 1`] = `
+exports[`forex exchangeRates {"from_currency":"USD","to_currency":"JPY"} 1`] = `
 Object {
   "ask_price": null,
   "bid_price": null,
@@ -797,7 +797,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"5min","outputsize":"full"} 1`] = `
+exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"5min","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -818,7 +818,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"5min"} 1`] = `
+exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"5min"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -839,7 +839,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"daily","outputsize":"full"} 1`] = `
+exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"daily","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -859,7 +859,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"daily"} 1`] = `
+exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -879,7 +879,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"monthly"} 1`] = `
+exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"monthly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -898,7 +898,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"weekly"} 1`] = `
+exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interval":"weekly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -917,7 +917,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex intraday {"from_symbol":"EUR","to_symbol":"USD","interval":"5min","outputsize":"full"} 1`] = `
+exports[`forex intraday {"from_symbol":"EUR","to_symbol":"USD","interval":"5min","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -938,7 +938,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex intraday {"from_symbol":"EUR","to_symbol":"USD","interval":"5min"} 1`] = `
+exports[`forex intraday {"from_symbol":"EUR","to_symbol":"USD","interval":"5min"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -959,7 +959,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex monthly {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
+exports[`forex monthly {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -978,7 +978,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module forex weekly {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
+exports[`forex weekly {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -997,7 +997,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module performance sector {} 1`] = `
+exports[`performance sector {} 1`] = `
 Object {
   "meta_data": Object {
     "information": null,
@@ -1133,7 +1133,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ad {"symbol":"MSFT","interval":"daily"} 1`] = `
+exports[`technical ad {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1149,7 +1149,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical adosc {"symbol":"MSFT","interval":"daily","fastperiod":5} 1`] = `
+exports[`technical adosc {"symbol":"MSFT","interval":"daily","fastperiod":5} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1167,7 +1167,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical adx {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical adx {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1184,7 +1184,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical adxr {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical adxr {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1201,7 +1201,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical apo {"symbol":"MSFT","interval":"daily","series_type":"close","fastperiod":10,"matype":1} 1`] = `
+exports[`technical apo {"symbol":"MSFT","interval":"daily","series_type":"close","fastperiod":10,"matype":1} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1221,7 +1221,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical aroon {"symbol":"MSFT","interval":"daily","time_period":14} 1`] = `
+exports[`technical aroon {"symbol":"MSFT","interval":"daily","time_period":14} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1239,7 +1239,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical aroonosc {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical aroonosc {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1256,7 +1256,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical atr {"symbol":"MSFT","interval":"daily","time_period":14} 1`] = `
+exports[`technical atr {"symbol":"MSFT","interval":"daily","time_period":14} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1273,7 +1273,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical bbands {"symbol":"MSFT","interval":"weekly","time_period":5,"series_type":"close","nbdevup":3,"nbdevdn":3} 1`] = `
+exports[`technical bbands {"symbol":"MSFT","interval":"weekly","time_period":5,"series_type":"close","nbdevup":3,"nbdevdn":3} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1296,7 +1296,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical bop {"symbol":"MSFT","interval":"daily"} 1`] = `
+exports[`technical bop {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1312,7 +1312,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical cci {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical cci {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1329,7 +1329,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical cmo {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"close"} 1`] = `
+exports[`technical cmo {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1347,7 +1347,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical dema {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
+exports[`technical dema {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1365,7 +1365,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical dx {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical dx {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1382,7 +1382,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ema {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
+exports[`technical ema {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1400,7 +1400,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ht_dcperiod {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
+exports[`technical ht_dcperiod {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1417,7 +1417,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ht_dcphase {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
+exports[`technical ht_dcphase {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1434,7 +1434,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ht_phasor {"symbol":"MSFT","interval":"weekly","series_type":"close"} 1`] = `
+exports[`technical ht_phasor {"symbol":"MSFT","interval":"weekly","series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1452,7 +1452,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ht_sine {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
+exports[`technical ht_sine {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1470,7 +1470,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ht_trendline {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
+exports[`technical ht_trendline {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1487,7 +1487,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ht_trendmode {"symbol":"MSFT","interval":"weekly","series_type":"close"} 1`] = `
+exports[`technical ht_trendmode {"symbol":"MSFT","interval":"weekly","series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1504,7 +1504,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical kama {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
+exports[`technical kama {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1522,7 +1522,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical macd {"symbol":"MSFT","interval":"daily","series_type":"open"} 1`] = `
+exports[`technical macd {"symbol":"MSFT","interval":"daily","series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1544,7 +1544,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical macdext {"symbol":"MSFT","interval":"daily","series_type":"open"} 1`] = `
+exports[`technical macdext {"symbol":"MSFT","interval":"daily","series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1569,7 +1569,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical mama {"symbol":"MSFT","interval":"daily","series_type":"close","fastlimit":0.02} 1`] = `
+exports[`technical mama {"symbol":"MSFT","interval":"daily","series_type":"close","fastlimit":0.02} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1589,7 +1589,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical mfi {"symbol":"MSFT","interval":"weekly","time_period":10} 1`] = `
+exports[`technical mfi {"symbol":"MSFT","interval":"weekly","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1606,7 +1606,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical midpoint {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 1`] = `
+exports[`technical midpoint {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1624,7 +1624,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical midprice {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical midprice {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1641,7 +1641,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical minus_di {"symbol":"MSFT","interval":"weekly","time_period":10} 1`] = `
+exports[`technical minus_di {"symbol":"MSFT","interval":"weekly","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1658,7 +1658,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical minus_dm {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical minus_dm {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1675,7 +1675,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical mom {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 1`] = `
+exports[`technical mom {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1693,7 +1693,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical natr {"symbol":"MSFT","interval":"weekly","time_period":14} 1`] = `
+exports[`technical natr {"symbol":"MSFT","interval":"weekly","time_period":14} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1710,7 +1710,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical obv {"symbol":"MSFT","interval":"weekly"} 1`] = `
+exports[`technical obv {"symbol":"MSFT","interval":"weekly"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1726,24 +1726,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical plus_di {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
-Object {
-  "data": Array [
-    Object {
-      "date": null,
-      "value": null,
-    },
-  ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
-}
-`;
-
-exports[`alphaVantage.module technical plus_dm {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical plus_di {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1760,7 +1743,24 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ppo {"symbol":"MSFT","interval":"daily","series_type":"close","fastperiod":10,"matype":1} 1`] = `
+exports[`technical plus_dm {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "date": null,
+      "value": null,
+    },
+  ],
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
+}
+`;
+
+exports[`technical ppo {"symbol":"MSFT","interval":"daily","series_type":"close","fastperiod":10,"matype":1} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1780,7 +1780,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical roc {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"close"} 1`] = `
+exports[`technical roc {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1798,7 +1798,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical rocr {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 1`] = `
+exports[`technical rocr {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1816,7 +1816,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical rsi {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
+exports[`technical rsi {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1834,7 +1834,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical sar {"symbol":"MSFT","interval":"weekly","acceleration":0.05,"maximum":0.25} 1`] = `
+exports[`technical sar {"symbol":"MSFT","interval":"weekly","acceleration":0.05,"maximum":0.25} 1`] = `
 Object {
   "acceleration": null,
   "data": Array [
@@ -1852,7 +1852,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical sma {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
+exports[`technical sma {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1870,7 +1870,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical stoch {"symbol":"MSFT","interval":"daily"} 1`] = `
+exports[`technical stoch {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1892,7 +1892,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical stochf {"symbol":"MSFT","interval":"daily"} 1`] = `
+exports[`technical stochf {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1912,7 +1912,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical stochrsi {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close","fastkperiod":6,"fastdmatype":1} 1`] = `
+exports[`technical stochrsi {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close","fastkperiod":6,"fastdmatype":1} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1934,7 +1934,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical t3 {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
+exports[`technical t3 {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1953,7 +1953,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical tema {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
+exports[`technical tema {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1971,7 +1971,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical trange {"symbol":"MSFT","interval":"daily"} 1`] = `
+exports[`technical trange {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -1987,25 +1987,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical trima {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
-Object {
-  "data": Array [
-    Object {
-      "date": null,
-      "value": null,
-    },
-  ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
-}
-`;
-
-exports[`alphaVantage.module technical trix {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 1`] = `
+exports[`technical trima {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -2023,7 +2005,25 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical ultosc {"symbol":"MSFT","interval":"daily","timeperiod":8} 1`] = `
+exports[`technical trix {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "date": null,
+      "value": null,
+    },
+  ],
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
+}
+`;
+
+exports[`technical ultosc {"symbol":"MSFT","interval":"daily","timeperiod":8} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -2040,7 +2040,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical vwap {"symbol":"MSFT","interval":"15min"} 1`] = `
+exports[`technical vwap {"symbol":"MSFT","interval":"15min"} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -2056,7 +2056,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical willr {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
+exports[`technical willr {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
     Object {
@@ -2073,7 +2073,7 @@ Object {
 }
 `;
 
-exports[`alphaVantage.module technical wma {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
+exports[`technical wma {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
 Object {
   "data": Array [
     Object {

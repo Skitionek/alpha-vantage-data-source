@@ -54,6 +54,14 @@ module.exports = AlphaVantageAPI => {
 		return data;
 	}
 
+	const url = function(type,params={}) {
+		const paramsWithFunction = [
+			['function', type],
+			...Object.entries(params).filter(([k, v]) => v),
+			['apikey', this.apikey]
+		].filter(([k,v])=>!(v===undefined||k===undefined));
+		return `${this.baseURL}?${paramsWithFunction.map(([key, value]) => `${key}=${value}`).join('&')}`;
+	};
 
 	/**
 	 * Wrapper function generator for any endpoint.
@@ -66,13 +74,7 @@ module.exports = AlphaVantageAPI => {
 	 */
 	const fn = function (type, ...additionalPolishers) {
 		return function (params) {
-			const paramsWithFunction = [
-				['function', type],
-				...Object.entries(params).filter(([k, v]) => v),
-				['apikey', this.apikey]
-			];
-			let url = `${this.baseURL}?${paramsWithFunction.map(([key, value]) => `${key}=${value}`).join('&')}`;
-			console.log(url);
+			let url = this.util.url(type,params);
 			let result = this
 				.get(url)
 				.then(data => {
@@ -87,13 +89,15 @@ module.exports = AlphaVantageAPI => {
 
 
 					return data;
-				})
-				.then(polishKeys);
-			additionalPolishers.forEach(polisher =>
-				result = result.then(
-					typeof polisher === 'function' ? polisher
-						: polish[polisher])
-			);
+				});
+			if(!this.getRaw) {
+				additionalPolishers.unshift(polishKeys);
+				additionalPolishers.forEach(polisher =>
+					result = result.then(
+						typeof polisher === 'function' ? polisher
+							: polish[polisher])
+				);
+			}
 			return result
 		}
 	};
@@ -101,7 +105,8 @@ module.exports = AlphaVantageAPI => {
 	Object.assign(AlphaVantageAPI, { fn }); //assign static method
 	return {
 		polish,
-		fn
+		fn,
+		url
 	};
 
 };

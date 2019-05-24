@@ -16,7 +16,7 @@ const path = require('path');
 class AlphaVantageAPI extends RESTDataSource {
 	constructor(config) {
 		super();
-		this.initialize(config);
+		this.initialize(config||{});
 
 		config = Object.assign({}, { key: process.env[apiKey] }, config);
 
@@ -47,11 +47,14 @@ class AlphaVantageAPI extends RESTDataSource {
 		})
 	}
 
-	blindMethods(ref) {
-		Object.keys(AlphaVantageAPI.prototype).filter(key => typeof this[key] === 'function').forEach(key => {
-			this[key] = this[key].bind(this);
-		})
-	}
+	// bindMethods(self) {
+	// 	function bind(d) {
+	//
+	// 	}
+	// 	Object.keys(AlphaVantageAPI.prototype).filter(key => typeof this[key] === 'function').forEach(key => {
+	// 		this[key] = this[key].bind(this);
+	// 	})
+	// }
 
 	static extend(extensionPath, alias = path.parse(extensionPath).name) {
 		let extension = require(extensionPath);
