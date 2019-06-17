@@ -2,14 +2,14 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-12 19:23:55",
-    "4: Interval": "15min",
+    "3: Last Refreshed": "1970-01-01 01:00:00",
+    "4: Interval": "1min",
     "5: Series Type": "String",
     "6: Time Zone": "String"
   },
   "Technical Analysis: HT_TRENDLINE": {
-    "2019-06-12 13:23:52": {
-      "HT_TRENDLINE": 0.0038390334152453853
+    "2019-06-17 16:00:01": {
+      "HT_TRENDLINE": 0.123456789
     }
   }
 }

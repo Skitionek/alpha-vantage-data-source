@@ -41,6 +41,9 @@ const alphaStructure = AlphaVantageAPI.prototype;
 const formatDate = timeFormat("%Y-%m-%d");
 const formatDateTime = timeFormat("%Y-%m-%d %H:%M:%S");
 
+const MathRandom = 0.123456789;
+const DateNow = new Date(0);
+
 function mockStructureData(obj) {
 	if (Array.isArray(obj)) {
 		return [mockStructureData(obj[0])]
@@ -55,13 +58,13 @@ function mockStructureData(obj) {
 	if (typeof obj === 'string') {
 		switch (obj) {
 		case FIELD_TYPES.TIMESTAMP:
-			return formatDateTime(Date.now());
+			return formatDateTime(DateNow);
 		case FIELD_TYPES.DATE:
-			return formatDate(Date.now());
+			return formatDate(DateNow);
 		case FIELD_TYPES.FLOAT:
-			return Math.random();
+			return MathRandom;
 		case FIELD_TYPES.INTERVAL:
-			return INTERVALS[Math.floor(Math.random() * INTERVALS.length)];
+			return INTERVALS[Math.floor(MathRandom * INTERVALS.length)];
 		case FIELD_TYPES.STRING:
 		default:
 			return obj

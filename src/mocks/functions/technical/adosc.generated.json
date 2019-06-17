@@ -2,15 +2,15 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-12 19:23:57",
-    "4: Interval": "weekly",
-    "5.1: FastK Period": 0.7824839024632901,
-    "5.2: SlowK Period": 0.04637086394211898,
+    "3: Last Refreshed": "1970-01-01 01:00:00",
+    "4: Interval": "1min",
+    "5.1: FastK Period": 0.123456789,
+    "5.2: SlowK Period": 0.123456789,
     "6: Time Zone": "String"
   },
   "Technical Analysis: ADOSC": {
-    "2019-06-12 13:23:52": {
-      "ADOSC": 0.36205668707036076
+    "2019-06-17 16:00:01": {
+      "ADOSC": 0.123456789
     }
   }
 }
