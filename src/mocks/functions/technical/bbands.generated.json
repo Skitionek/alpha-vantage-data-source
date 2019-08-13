@@ -12,10 +12,10 @@
     "8: Time Zone": "String"
   },
   "Technical Analysis: BBANDS": {
-    "2019-06-17 16:00:01": {
-      "Real Lower Band": 0.123456789,
+    "2019-08-13 13:47:53": {
+      "Real Middle Band": 0.123456789,
       "Real Upper Band": 0.123456789,
-      "Real Middle Band": 0.123456789
+      "Real Lower Band": 0.123456789
     }
   }
 }

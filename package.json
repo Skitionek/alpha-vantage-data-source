@@ -26,9 +26,9 @@
 		"Zack Urben <zackurben@gmail.com> (http://zackurben.com)"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/biosustain-gem/alpha-vantage-data-source",
+	"homepage": "https://github.com/Skitionek/alpha-vantage-data-source",
 	"bugs": {
-		"web": "https://github.com/biosustain-gem/alpha-vantage-data-source/issues"
+		"web": "https://github.com/Skitionek/alpha-vantage-data-source/issues"
 	},
 	"engines": {
 		"node": ">=6.0.0"
@@ -51,7 +51,10 @@
 	},
 	"files": [
 		"dist",
-		"src"
+		"src",
+	  	"lib",
+	  	"mocks",
+	    "ApiTree.json"
 	],
 	"devDependencies": {
 		"@babel/cli": "^7.4.4",
