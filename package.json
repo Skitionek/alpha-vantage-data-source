@@ -2,7 +2,7 @@
 	"name": "alpha-vantage-data-source",
 	"version": "2.1.1",
 	"description": "",
-	"main": "dist",
+	"main": "index.js",
 	"keywords": [
 		"alpha vantage",
 		"vantage",
@@ -38,7 +38,7 @@
 		"prebuild": "npm run clean",
 		"debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect src/dist/index.js",
 		"semantic-release": "semantic-release",
-		"clean": "rm index.js && rimraf lib && rimraf mocks",
+		"clean": "rm index.js && rimraf lib && rimraf mocks || exit 0",
 		"test": "npm run lint && npm run cover unit && npm run cover integration && npm run cover InSync",
 		"test:prod": "cross-env BABEL_ENV=production npm run test",
 		"test:only": "jest",

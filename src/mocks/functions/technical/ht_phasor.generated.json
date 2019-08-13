@@ -8,9 +8,9 @@
     "6: Time Zone": "String"
   },
   "Technical Analysis: HT_PHASOR": {
-    "2019-08-13 13:47:53": {
-      "PHASE": 0.123456789,
-      "QUADRATURE": 0.123456789
+    "2019-08-13 14:01:21": {
+      "QUADRATURE": 0.123456789,
+      "PHASE": 0.123456789
     }
   }
 }

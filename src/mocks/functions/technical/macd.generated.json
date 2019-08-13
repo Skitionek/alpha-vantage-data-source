@@ -11,10 +11,10 @@
     "7: Time Zone": "String"
   },
   "Technical Analysis: MACD": {
-    "2019-08-13 13:47:53": {
-      "MACD_Hist": 0.123456789,
+    "2019-08-13 14:01:21": {
+      "MACD_Signal": 0.123456789,
       "MACD": 0.123456789,
-      "MACD_Signal": 0.123456789
+      "MACD_Hist": 0.123456789
     }
   }
 }

@@ -6,8 +6,8 @@
   "Rank A: Real-Time Performance": {
     "Information Technology": "String",
     "Communication Services": "String",
-    "Financials": "String",
     "Consumer Discretionary": "String",
+    "Financials": "String",
     "Industrials": "String",
     "Materials": "String",
     "Health Care": "String",
