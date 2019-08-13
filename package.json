@@ -46,8 +46,7 @@
 		"test:examples": "node examples/",
 		"cover": "jest --coverage",
 		"lint": "eslint src test generate",
-		"build": "cross-env BABEL_ENV=production ./build.sh",
-		"prepublish": "npm run lint && npm run test && npm run build"
+		"build": "cross-env BABEL_ENV=production ./build.sh"
 	},
 	"files": [
 		"dist",
