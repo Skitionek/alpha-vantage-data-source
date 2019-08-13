@@ -53,7 +53,8 @@
 		"src",
 		"lib",
 		"mocks",
-		"ApiTree.json"
+		"ApiTree.json",
+	  	"index.js"
 	],
 	"devDependencies": {
 		"@babel/cli": "^7.4.4",
