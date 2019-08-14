@@ -1,6 +1,6 @@
 {
 	"name": "alpha-vantage-data-source",
-	"version": "2.2.8",
+	"version": "2.2.9",
 	"description": "",
 	"main": "index.js",
 	"files": [
