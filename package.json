@@ -44,7 +44,7 @@
 	},
 	"scripts": {
 		"start": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect src/index.js",
-		"prebuild": "npm run clean",
+		"prebuild": "npm run clean && npm run generate:mockedResponses",
 		"debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect src/dist/index.js",
 		"semantic-release": "semantic-release",
 		"clean": "rm index.js && rimraf lib && rimraf mocks || exit 0",
