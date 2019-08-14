@@ -6,8 +6,6 @@ jobs:
   include:
     - stage: update
       if: type = cron
-    - name: "Audit fix"
-      script: npm audit fix || exit 0
     - name: "Update packages"
       script: npm run update:packages
     - name: "Commit update"
@@ -15,7 +13,7 @@ jobs:
     - name: "Patch version number"
       script: npm version patch -m "update dependencies"
     - name: "Push update to git"
-      script: git push && git push --tags
+      script: git push --tags
     - stage: "Linting"
       script:  npm run lint
     - stage: test
