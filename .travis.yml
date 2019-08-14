@@ -5,6 +5,10 @@ node_js:
 stages:
   - name: "Update"
     if: type = cron
+  - name: "Linting"
+  - test
+  - build
+  - npm publish
 
 jobs:
   include:
@@ -37,16 +41,6 @@ jobs:
         on:
           branch: master
           tags: true
-
-after_success:
-- ./patch.sh
-
-deploy:
-  provider: script
-  script: "cp .npmrc.template $HOME/.npmrc && npm publish"
-  skip_cleanup: true
-  on:
-    tags: true
 
 notifications:
   email:
