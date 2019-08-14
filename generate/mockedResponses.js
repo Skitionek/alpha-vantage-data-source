@@ -2,10 +2,6 @@
 	- Author:   Dominik Maszczyk
 	- Email:    Skitionek@gmail.com
 	- Created:  2019-05-24
-*//* DOCUMENT INFORMATION
-	- Author:   Dominik Maszczyk
-	- Email:    Skitionek@gmail.com
-	- Created:  23/04/2019
 */
 
 import AlphaVantageAPI from "../src";

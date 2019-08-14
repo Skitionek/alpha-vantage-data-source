@@ -56,6 +56,7 @@
 		"cover": "jest --coverage",
 		"lint": "eslint src test generate",
 		"build": "cross-env BABEL_ENV=production ./build.sh",
+	  	"postbuild": "npm run generate:buildMockedResponses",
 		"generate": "npm run generate:buildMockedResponses & npm run generate:mockedResponses & npm run generate:ApiTree",
 		"generate:buildMockedResponses": "babel-node generate/buildMockedResponses.js",
 		"generate:mockedResponses": "babel-node generate/mockedResponses.js",

@@ -9,9 +9,7 @@ jobs:
   include:
     - stage: "Generate"
       name: "Run generation scripts"
-    - name: "Build mocked responses"
-      script: npm run generate:buildMockedResponses
-    - name: "Mocked responses"
+    - name: "Create mocked responses"
       script: npm run generate:mockedResponses
     - name: "Create ApiTree"
       script: npm run generate:ApiTree
