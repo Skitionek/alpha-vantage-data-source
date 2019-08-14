@@ -2,40 +2,46 @@ language: node_js
 node_js:
 - "9"
 
-#before_install
+before_install:
+  if: type = cron
+  - script: npm audit fix
+  - script: npm run update:packages
+  - script: git commit -am "update dependencies"
+  - script: npm version patch -m "update dependencies"
+  - script: git push --tags
 
-#install
-
-before_script:
-  - ./update.sh
-
-#script
-script:
-  - npm run lint
-  - npm run cover unit
-  - npm run cover integration
-  - npm run cover InSync
-  - npm run build
+jobs:
+  include:
+    - stage: "Linting"
+      script:  npm run lint
+    - stage: test
+    - name: "Unit test"
+      script:  npm run cover unit
+    - name: "Integration Test"
+      script:  npm run cover integration
+    - name: "Unit and integration synchronisation test test"
+      script:  npm run cover InSync
+    - stage: build
+      script:  npm run build
+    - stage: npm publish
+      script: skip
+      deploy:
+        provider: npm
+        api_key: $NPM_API_KEY
+        email: $EMAIL
+        on:
+          branch: master
+          tags: true
 
 after_success:
-  - ./patch.sh
+- ./patch.sh
 
-#after_failure
-
-#after_script
-
-#OPTIONAL before_deploy
-
-#OPTIONAL
 deploy:
   provider: script
   script: "cp .npmrc.template $HOME/.npmrc && npm publish"
   skip_cleanup: true
   on:
     tags: true
-
-#OPTIONAL after_deploy
-
 
 notifications:
   email:
