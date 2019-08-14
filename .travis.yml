@@ -13,11 +13,11 @@ jobs:
     - stage: test
       name: "Testing"
     - name: "Unit test"
-      script:  npm run cover unit
+      script:  npm run unit
     - name: "Integration Test"
-      script:  npm run cover integration
+      script:  npm run integration
     - name: "Unit and integration synchronisation test test"
-      script:  npm run cover InSync
+      script:  npm run InSync
     - stage: npm publish
       name: "Publish to npm registry"
       script: skip
