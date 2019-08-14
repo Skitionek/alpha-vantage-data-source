@@ -2,6 +2,7 @@
 
 ## Outdated readme
 [![Build Status](https://travis-ci.com/Skitionek/alpha-vantage-data-source.svg?branch=master)](https://travis-ci.com/Skitionek/alpha-vantage-data-source)
+[![Coverage Status](https://coveralls.io/repos/github/Skitionek/alpha-vantage-data-source/badge.svg?branch=master)](https://coveralls.io/github/Skitionek/alpha-vantage-data-source?branch=master)
 
 This is a simple wrapper around the [Alpha Vantage API](https://www.alphavantage.co/documentation/) hosted on [NPM](https://www.npmjs.com/package/alphavantage). I have no affiliation with AlphaVantage.
 

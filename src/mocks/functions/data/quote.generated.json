@@ -6,7 +6,7 @@
     "04. low": 0.123456789,
     "05. price": 0.123456789,
     "06. volume": 0.123456789,
-    "07. latest trading day": "1970-01-01",
+    "07. latest trading day": "1970-01-01 01:00:00",
     "08. previous close": 0.123456789,
     "09. change": 0.123456789,
     "10. change percent": "String"

@@ -4,17 +4,17 @@
     "Last Refreshed": "String"
   },
   "Rank A: Real-Time Performance": {
-    "Information Technology": "String",
-    "Consumer Discretionary": "String",
-    "Communication Services": "String",
-    "Health Care": "String",
+    "Utilities": "String",
     "Consumer Staples": "String",
-    "Materials": "String",
-    "Financials": "String",
-    "Industrials": "String",
-    "Energy": "String",
     "Real Estate": "String",
-    "Utilities": "String"
+    "Health Care": "String",
+    "Materials": "String",
+    "Industrials": "String",
+    "Communication Services": "String",
+    "Information Technology": "String",
+    "Financials": "String",
+    "Consumer Discretionary": "String",
+    "Energy": "String"
   },
   "Rank B: 1 Day Performance": {
     "Information Technology": "String",
