@@ -1,7 +1,7 @@
 # AlphaVantage
 
 ## Outdated readme
-[![Build Status](https://travis-ci.com/Skitionek/alpha-vantage-data-source.svg?branch=master)](https://travis-ci.com/Skitionek/alpha-vantage-data-source)
+[![Build Status](https://travis-ci.com/Skitionek/alpha-vantage-data-source.svg?branch=master)](https://travis-ci.com/Skitionek/alpha-vantage-data-source) [![Greenkeeper badge](https://badges.greenkeeper.io/Skitionek/alpha-vantage-data-source.svg)](https://greenkeeper.io/)
 
 This is a simple wrapper around the [Alpha Vantage API](https://www.alphavantage.co/documentation/) hosted on [NPM](https://www.npmjs.com/package/alphavantage). I have no affiliation with AlphaVantage.
 
