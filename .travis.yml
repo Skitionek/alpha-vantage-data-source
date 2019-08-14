@@ -5,7 +5,7 @@ node_js:
 stages:
   - name: "Update"
     if: type = cron
-  - name: "Linting"
+  - name: "Lint"
   - test
   - build
   - npm publish
