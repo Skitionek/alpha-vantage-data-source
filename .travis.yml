@@ -2,25 +2,8 @@ language: node_js
 node_js:
 - "9"
 
-stages:
-  - name: "Update"
-    if: type = cron
-  - name: "Lint"
-  - test
-  - build
-  - npm publish
-
 jobs:
   include:
-    - stage: "Update"
-    - name: "Update packages"
-      script: npm run update:packages
-    - name: "Commit update"
-      script: git commit -am "update dependencies"
-    - name: "Patch version number"
-      script: npm version patch -m "update dependencies"
-    - name: "Push update to git"
-      script: git push --tags
     - stage: "Lint"
       name: "Linting"
       script:  npm run lint
