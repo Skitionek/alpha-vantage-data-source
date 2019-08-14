@@ -55,13 +55,14 @@
 		"test:examples": "node examples/",
 		"cover": "jest --coverage",
 		"lint": "eslint src test generate",
+		"build:only": "cross-env BABEL_ENV=production babel src --out-dir ./ --source-maps --ignore \"*.json\" &&\nrm -r mocks/functions",
 		"build": "cross-env BABEL_ENV=production ./build.sh",
-		"postbuild": "npm run generate:buildMockedResponses",
+		"postbuild": "npm run generate:buildMockedResponses && npm run generate:ApiTree",
 		"generate": "npm run generate:buildMockedResponses & npm run generate:mockedResponses & npm run generate:ApiTree",
 		"generate:buildMockedResponses": "babel-node generate/buildMockedResponses.js",
 		"generate:mockedResponses": "babel-node generate/mockedResponses.js",
 		"generate:ApiTree": "babel-node generate/ApiTree.js",
-		"prepublish": "npm run build",
+		"prepublishOnly": "npm run build",
 		"update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
 	},
 	"devDependencies": {

@@ -8,11 +8,8 @@ if: tag IS present
 jobs:
   include:
     - stage: "Generate"
-      name: "Run generation scripts"
-    - name: "Create mocked responses"
+      name: "Create mocked responses"
       script: npm run generate:mockedResponses
-    - name: "Create ApiTree"
-      script: npm run generate:ApiTree
     - stage: "Lint"
       name: "Linting"
       script:  npm run lint
@@ -26,7 +23,7 @@ jobs:
       script:  npm run cover InSync
     - stage: build
       name: "Building"
-      script:  npm run build
+      script:  npm run build:only
     - stage: npm publish
       name: "Publish to npm registry"
       script: skip
@@ -34,6 +31,7 @@ jobs:
         provider: npm
         api_key: $NPM_API_KEY
         email: $EMAIL
+        deploy.skip_cleanup: true
         on:
           branch: master
           tags: true
