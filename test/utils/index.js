@@ -5,10 +5,10 @@
 */
 
 export const FIELD_TYPES = {
-	TIMESTAMP: "Timestamp",
+	TIMESTAMP: "Timestamp/Date",
 	STRING: "String",
 	FLOAT: "Float",
-	DATE: "Date",
+	DATE: "Timestamp/Date",
 	INTERVAL: "Interval"
 };
 export const INTERVALS = [
