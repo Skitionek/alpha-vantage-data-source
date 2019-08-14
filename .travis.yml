@@ -5,15 +5,17 @@ node_js:
 jobs:
   include:
     - stage: update
-      on:
-        branch: master
-        tags: true
       if: type = cron
-    - script: npm audit fix
-    - script: npm run update:packages
-    - script: git commit -am "update dependencies"
-    - script: npm version patch -m "update dependencies"
-    - script: git push --tags
+    - name: "Audit fix"
+      script: npm audit fix || exit 0
+    - name: "Update packages"
+      script: npm run update:packages
+    - name: "Commit update"
+      script: git commit -am "update dependencies"
+    - name: "Patch version number"
+      script: npm version patch -m "update dependencies"
+    - name: "Push update to git"
+      script: git push && git push --tags
     - stage: "Linting"
       script:  npm run lint
     - stage: test
