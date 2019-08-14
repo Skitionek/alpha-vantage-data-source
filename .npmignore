@@ -1,4 +1,8 @@
-test
 generate
 coverage
 .idea
+node_modules
+.env.example
+.gitignore
+build.sh
+README.md
