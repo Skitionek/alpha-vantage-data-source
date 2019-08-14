@@ -1,6 +1,6 @@
 {
 	"name": "alpha-vantage-data-source",
-	"version": "2.1.4",
+	"version": "2.2.0",
 	"description": "",
 	"main": "index.js",
 	"files": [
@@ -9,8 +9,8 @@
 		"lib",
 		"mocks",
 		"ApiTree.json",
-	  	"index.js",
-	  	"index.js.map"
+		"index.js",
+		"index.js.map"
 	],
 	"keywords": [
 		"alpha vantage",
@@ -192,7 +192,7 @@
 	"jest": {
 		"transform": {
 			"\\.(gql|graphql)$": "jest-transform-graphql",
-    		"^.+\\.(js)$": "babel-jest"
+			"^.+\\.(js)$": "babel-jest"
 		},
 		"reporters": [
 			"default",
