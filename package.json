@@ -56,7 +56,10 @@
 		"cover": "jest --coverage",
 		"lint": "eslint src test generate",
 		"build": "cross-env BABEL_ENV=production ./build.sh",
-		"prepublishOnly": "npm run lint && npm run test && npm run build"
+	  	"generate:buildMockedResponses": "babel-node generate/buildMockedResponses.js",
+	  	"generate:mockedResponses": "babel-node generate/mockedResponses.js",
+	  	"generate:ApiTree": "babel-node generate/ApiTree.js",
+  		"update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.5.5",

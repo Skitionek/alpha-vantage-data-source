@@ -40,40 +40,12 @@ Compared values have no visual difference.
 
 exports[`data daily 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -8,10 +8,10 @@
-        "open": "Float",
-        "volume": "Float",
-      },
-    ],
-    "information": "String",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "output_size": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`data daily_adjusted 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -11,10 +11,10 @@
-        "split_coefficient": "Float",
-        "volume": "Float",
-      },
-    ],
-    "information": "String",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "output_size": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`data exchangeTimeSeries 1`] = `
@@ -105,21 +77,7 @@ Snapshot Diff:
 
 exports[`data exchangeTimeSeries_adjusted 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -11,10 +11,10 @@
-        "split_coefficient": "Float",
-        "volume": "Float",
-      },
-    ],
-    "information": "String",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "output_size": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`data intraday 1`] = `
@@ -129,38 +87,12 @@ Compared values have no visual difference.
 
 exports[`data monthly 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -8,9 +8,9 @@
-        "open": "Float",
-        "volume": "Float",
-      },
-    ],
-    "information": "String",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`data monthly_adjusted 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -10,9 +10,9 @@
-        "open": "Float",
-        "volume": "Float",
-      },
-    ],
-    "information": "String",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`data quote 1`] = `
@@ -175,38 +107,12 @@ Compared values have no visual difference.
 
 exports[`data weekly 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -8,9 +8,9 @@
-        "open": "Float",
-        "volume": "Float",
-      },
-    ],
-    "information": "String",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`data weekly_adjusted 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -10,9 +10,9 @@
-        "open": "Float",
-        "volume": "Float",
-      },
-    ],
-    "information": "String",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`forex daily 1`] = `
@@ -273,1206 +179,252 @@ Compared values have no visual difference.
 
 exports[`technical ad 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical adosc 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "fastk_period": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "slowk_period": "Float",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical adx 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical adxr 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical apo 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,16 +1,16 @@
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "fast_period": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "ma_type": "Float",
-    "series_type": "String",
-    "slow_period": "Float",
-    "symbol": "String",
-    "time_zone": "String",
+Compared values have no visual difference.
 `;
 
 exports[`technical aroon 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
-        "aroon_down": "Float",
-        "aroon_up": "Float",
--       "date": "Timestamp",
-+       "date": "Date",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical aroonosc 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical atr 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical bbands 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,19 +1,19 @@
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "real_lower_band": "Float",
-        "real_middle_band": "Float",
-        "real_upper_band": "Float",
-      },
-    ],
-    "deviation_multiplier_for_lower_band": "Float",
-    "deviation_multiplier_for_upper_band": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "ma_type": "Float",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
+Compared values have no visual difference.
 `;
 
 exports[`technical bop 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical cci 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical cmo 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical dema 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical dx 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ema 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ht_dcperiod 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ht_dcphase 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ht_phasor 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "phase": "Float",
-        "quadrature": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ht_sine 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "lead_sine": "Float",
-        "sine": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ht_trendline 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ht_trendmode 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical kama 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical macd 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,18 +1,18 @@
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "macd": "Float",
-        "macd_hist": "Float",
-        "macd_signal": "Float",
-      },
-    ],
-    "fast_period": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "signal_period": "Float",
-    "slow_period": "Float",
-    "symbol": "String",
-    "time_zone": "String",
+Compared values have no visual difference.
 `;
 
 exports[`technical macdext 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,19 +1,19 @@
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "macd": "Float",
-        "macd_hist": "Float",
-        "macd_signal": "Float",
-      },
-    ],
-    "fast_ma_type": "Float",
-    "fast_period": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "signal_ma_type": "Float",
-    "signal_period": "Float",
-    "slow_ma_type": "Float",
-    "slow_period": "Float",
+Compared values have no visual difference.
 `;
 
 exports[`technical mama 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "fama": "Float",
-        "mama": "Float",
-      },
-    ],
-    "fast_limit": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "slow_limit": "Float",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical mfi 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical midpoint 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical midprice 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical minus_di 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical minus_dm 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical mom 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical natr 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical obv 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical plus_di 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical plus_dm 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ppo 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,16 +1,16 @@
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "fast_period": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "ma_type": "Float",
-    "series_type": "String",
-    "slow_period": "Float",
-    "symbol": "String",
-    "time_zone": "String",
+Compared values have no visual difference.
 `;
 
 exports[`technical roc 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical rocr 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical rsi 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical sar 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "acceleration": "Float",
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "maximum": "Float",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical sma 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical stoch 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,17 +1,17 @@
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "slowd": "Float",
-        "slowk": "Float",
-      },
-    ],
-    "fastk_period": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "slowd_ma_type": "Float",
-    "slowd_period": "Float",
-    "slowk_ma_type": "Float",
-    "slowk_period": "Float",
-    "symbol": "String",
+Compared values have no visual difference.
 `;
 
 exports[`technical stochf 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "fastd": "Float",
-        "fastk": "Float",
-      },
-    ],
-    "fastd_ma_type": "Float",
-    "fastd_period": "Float",
-    "fastk_period": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical stochrsi 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "fastd": "Float",
-        "fastk": "Float",
-      },
-    ],
-    "fastd_ma_type": "Float",
-    "fastd_period": "Float",
-    "fastk_period": "Float",
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical t3 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,15 +1,15 @@
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-    "volume_factor_vfactor": "Float",
+Compared values have no visual difference.
 `;
 
 exports[`technical tema 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical trange 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical trima 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical trix 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ultosc 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical vwap 1`] = `
@@ -1482,47 +434,10 @@ Compared values have no visual difference.
 
 exports[`technical willr 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical wma 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
--       "date": "Timestamp",
-+       "date": "Date",
-        "value": "Float",
-      },
-    ],
-    "indicator": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-  }
+Compared values have no visual difference.
 `;

@@ -2,12 +2,51 @@ language: node_js
 node_js:
 - "9"
 
+jobs:
+  include:
+    - stage: "Tests"                # naming the Tests stage
+      name: "Unit Tests"            # names the first Tests stage job
+      script: ./unit-tests
+    - script: ./integration-tests
+      name: "Integration Tests"     # names the second Tests stage job
+    - stage: deploy
+      name: "Deploy to GCP"
+      script: ./deploy
+
+#before_install
+
+#install
+
+before_script:
+  - ./update.sh
+
+#script
+script:
+  - npm run lint
+  - npm run cover unit
+  - npm run cover integration
+  - npm run cover InSync
+  - npm run build
+
+after_success:
+  - ./patch.sh
+
+#after_failure
+
+#after_script
+
+#OPTIONAL before_deploy
+
+#OPTIONAL
 deploy:
   provider: script
   script: "cp .npmrc.template $HOME/.npmrc && npm publish"
   skip_cleanup: true
   on:
     tags: true
+
+#OPTIONAL after_deploy
+
 
 notifications:
   email:

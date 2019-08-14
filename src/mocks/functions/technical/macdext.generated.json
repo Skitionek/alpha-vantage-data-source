@@ -15,9 +15,9 @@
   },
   "Technical Analysis: MACDEXT": {
     "2019-08-13": {
-      "MACD_Signal": 0.123456789,
+      "MACD": 0.123456789,
       "MACD_Hist": 0.123456789,
-      "MACD": 0.123456789
+      "MACD_Signal": 0.123456789
     }
   }
 }
