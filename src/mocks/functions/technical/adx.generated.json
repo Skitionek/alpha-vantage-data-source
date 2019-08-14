@@ -2,13 +2,13 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "1970-01-01 01:00:00",
+    "3: Last Refreshed": "1970-01-01",
     "4: Interval": "1min",
     "5: Time Period": 0.123456789,
     "6: Time Zone": "String"
   },
   "Technical Analysis: ADX": {
-    "2019-08-13 14:01:21": {
+    "2019-08-13": {
       "ADX": 0.123456789
     }
   }

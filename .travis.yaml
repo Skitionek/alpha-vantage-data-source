@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- "9"
+
+deploy:
+  provider: script
+  script: "cp .npmrc.template $HOME/.npmrc && npm publish"
+  skip_cleanup: true
+
+notifications:
+  email:
+    recipients:
+    - Skitionek@gmail.com
+    on_success: change
+    on_failure: always
