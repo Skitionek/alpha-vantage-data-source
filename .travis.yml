@@ -5,6 +5,9 @@ node_js:
 jobs:
   include:
     - stage: update
+      on:
+        branch: master
+        tags: true
       if: type = cron
     - script: npm audit fix
     - script: npm run update:packages
