@@ -7,6 +7,14 @@ if: tag IS present
 
 jobs:
   include:
+    - stage: "Generate"
+      name: "Run generation scripts"
+    - name: "Build mocked responses"
+      script: npm run generate:buildMockedResponses
+    - name: "Mocked responses"
+      script: npm run generate:mockedResponses
+    - name: "Create ApiTree"
+      script: npm run generate:ApiTree
     - stage: "Lint"
       name: "Linting"
       script:  npm run lint
