@@ -1,6 +1,6 @@
 {
 	"name": "alpha-vantage-data-source",
-	"version": "2.2.21",
+	"version": "2.2.22",
 	"description": "",
 	"main": "index.js",
 	"files": [
@@ -59,7 +59,7 @@
 		"generate:buildMockedResponses": "babel-node generate/buildMockedResponses.js",
 		"generate:mockedResponses": "babel-node generate/mockedResponses.js",
 		"generate:ApiTree": "babel-node generate/ApiTree.js",
-	  	"prepublish": "npm run build",
+		"prepublish": "npm run build",
 		"update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
 	},
 	"devDependencies": {
