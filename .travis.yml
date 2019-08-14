@@ -2,16 +2,15 @@ language: node_js
 node_js:
 - "9"
 
-before_install:
-  if: type = cron
-  - script: npm audit fix
-  - script: npm run update:packages
-  - script: git commit -am "update dependencies"
-  - script: npm version patch -m "update dependencies"
-  - script: git push --tags
-
 jobs:
   include:
+    - stage: update
+      if: type = cron
+    - script: npm audit fix
+    - script: npm run update:packages
+    - script: git commit -am "update dependencies"
+    - script: npm version patch -m "update dependencies"
+    - script: git push --tags
     - stage: "Linting"
       script:  npm run lint
     - stage: test
