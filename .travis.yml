@@ -18,7 +18,7 @@ jobs:
     - #stage: build
       name: "Building"
       script:  npm run build
-    - stage: npm publish
+    - #stage: npm publish
       name: "Publish to npm registry"
       script: skip
       deploy:
