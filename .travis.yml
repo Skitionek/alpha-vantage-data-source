@@ -41,6 +41,6 @@ jobs:
 notifications:
   email:
     recipients:
-    - Skitionek@gmail.com
+    - $EMAIL
     on_success: change
     on_failure: always
