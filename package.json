@@ -76,7 +76,7 @@
 		"@graphql-modules/core": "^0.7.9",
 		"@graphql-modules/di": "^0.7.9",
 		"apollo-server": "^2.8.1",
-		"apollo-server-testing": "^2.8.1",
+		"apollo-server-testing": "^2.10.0",
 		"babel-eslint": "^10.0.2",
 		"babel-plugin-module-resolver": "^3.2.0",
 		"cross-env": "^5.2.0",
