@@ -75,7 +75,7 @@
 		"@babel/preset-env": "^7.5.5",
 		"@graphql-modules/core": "^0.7.9",
 		"@graphql-modules/di": "^0.7.9",
-		"apollo-server": "^2.10.0",
+		"apollo-server": "^2.11.0",
 		"apollo-server-testing": "^2.11.0",
 		"babel-eslint": "^10.0.2",
 		"cross-env": "^6.0.0",
