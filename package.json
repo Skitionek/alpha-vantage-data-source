@@ -18,7 +18,7 @@
 		],
 		"branch": "master"
 	},
-	"version": "2.2.30",
+	"version": "2.2.31",
 	"description": "",
 	"main": "index.js",
 	"files": [
