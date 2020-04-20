@@ -280,29 +280,6 @@ Object {
 }
 `;
 
-exports[`data daily_adjusted {"symbol":"MSFT","outputsize":"full"} 2`] = `
-Object {
-  "data": Array [
-    Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "split_coefficient": "Float",
-      "volume": "Float",
-    },
-  ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
-}
-`;
-
 exports[`data daily_adjusted {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
@@ -617,22 +594,6 @@ Object {
 `;
 
 exports[`data quote {"symbol":"300135.SHZ"} 1`] = `
-Object {
-  "change": "Float",
-  "change_percent": "String",
-  "close": null,
-  "date": "Timestamp/Date",
-  "high": "Float",
-  "low": "Float",
-  "open": "Float",
-  "previous_close": "Float",
-  "price": "Float",
-  "symbol": "String",
-  "volume": "Float",
-}
-`;
-
-exports[`data quote {"symbol":"300135.SZ"} 1`] = `
 Object {
   "change": "Float",
   "change_percent": "String",
@@ -1438,45 +1399,6 @@ Object {
 }
 `;
 
-exports[`technical ema {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 2`] = `
-Object {
-  "data": Array [
-    Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-    },
-  ],
-  "from_symbol": "String",
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
-}
-`;
-
-exports[`technical ema {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 3`] = `
-Object {
-  "data": Array [
-    Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
-    },
-  ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
-}
-`;
-
 exports[`technical ht_dcperiod {"symbol":"MSFT","interval":"daily","series_type":"close"} 1`] = `
 Object {
   "data": Array [
@@ -1701,24 +1623,6 @@ Object {
 }
 `;
 
-exports[`technical midpoint {"symbol":"MSFT","interval":"daily","time_period":10,"series_type":"close"} 2`] = `
-Object {
-  "data": Array [
-    Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
-    },
-  ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
-}
-`;
-
 exports[`technical midprice {"symbol":"MSFT","interval":"daily","time_period":10} 1`] = `
 Object {
   "data": Array [
@@ -1912,24 +1816,6 @@ Object {
 `;
 
 exports[`technical rsi {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 1`] = `
-Object {
-  "data": Array [
-    Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
-    },
-  ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
-}
-`;
-
-exports[`technical rsi {"symbol":"MSFT","interval":"weekly","time_period":10,"series_type":"open"} 2`] = `
 Object {
   "data": Array [
     Object {

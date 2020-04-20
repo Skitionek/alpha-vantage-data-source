@@ -7,20 +7,7 @@ Compared values have no visual difference.
 
 exports[`crypto exchangeRates 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,8 +1,8 @@
-  Object {
--   "ask_price": null,
--   "bid_price": null,
-+   "ask_price": "Float",
-+   "bid_price": "Float",
-    "exchange_rate": "Float",
-    "from_currency_code": "String",
-    "from_currency_name": "String",
-    "last_refreshed": "Timestamp/Date",
-    "time_zone": "String",
+Compared values have no visual difference.
 `;
 
 exports[`crypto exchangeTimeSeries 1`] = `
@@ -100,20 +87,7 @@ Compared values have no visual difference.
 
 exports[`forex exchangeRates 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,8 +1,8 @@
-  Object {
--   "ask_price": null,
--   "bid_price": null,
-+   "ask_price": "Float",
-+   "bid_price": "Float",
-    "exchange_rate": "Float",
-    "from_currency_code": "String",
-    "from_currency_name": "String",
-    "last_refreshed": "Timestamp/Date",
-    "time_zone": "String",
+Compared values have no visual difference.
 `;
 
 exports[`forex exchangeTimeSeries 1`] = `
@@ -138,31 +112,7 @@ Compared values have no visual difference.
 
 exports[`performance sector 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-@@ -1,8 +1,8 @@
-  Object {
-    "information": "String",
--   "last_refreshed": "String",
-+   "last_refreshed": "Timestamp/Date",
-    "rank_a_real_time_performance": Object {
-      "communication_services": "String",
-      "consumer_discretionary": "String",
-      "consumer_staples": "String",
-      "energy": "String",
-@@ -100,10 +100,11 @@
-      "financials": "String",
-      "health_care": "String",
-      "industrials": "String",
-      "information_technology": "String",
-      "materials": "String",
-+     "real_estate": "String",
-      "utilities": "String",
-    },
-    "rank_i_year_performance": Object {
-      "communication_services": "String",
-      "consumer_discretionary": "String",
+Compared values have no visual difference.
 `;
 
 exports[`technical ad 1`] = `
@@ -237,7 +187,32 @@ Compared values have no visual difference.
 
 exports[`technical ema 1`] = `
 Snapshot Diff:
-Compared values have no visual difference.
+- First value
++ Second value
+
+  Object {
+    "data": Array [
+      Object {
++       "close": "Float",
+        "date": "Timestamp/Date",
++       "high": "Float",
++       "low": "Float",
++       "open": "Float",
+        "value": "Float",
+      },
+    ],
++   "from_symbol": "String",
+    "indicator": "String",
++   "information": "String",
+    "interval": "Interval",
+    "last_refreshed": "Timestamp/Date",
++   "output_size": "String",
+    "series_type": "String",
+    "symbol": "String",
+    "time_period": "Float",
+    "time_zone": "String",
++   "to_symbol": "String",
+  }
 `;
 
 exports[`technical ht_dcperiod 1`] = `
