@@ -1,3 +1,10 @@
+## [2.2.38](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.37...v2.2.38) (2020-04-20)
+
+
+### Bug Fixes
+
+* polishing ([e9f70b0](https://github.com/Skitionek/alpha-vantage-data-source/commit/e9f70b03fd43cdcde8e1229232519a5e7f019418))
+
 ## [2.2.37](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.36...v2.2.37) (2020-04-20)
 
 
