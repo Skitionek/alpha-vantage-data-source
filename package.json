@@ -1,5 +1,8 @@
 {
   "name"            : "alpha-vantage-data-source",
+  "version"         : "2.2.37",
+  "description"     : "",
+  "main"            : "index.js",
   "publishConfig"   : {
 	"access": "public"
   },
@@ -18,9 +21,6 @@
 	],
 	"branch" : "master"
   },
-  "version"         : "2.2.36",
-  "description"     : "",
-  "main"            : "index.js",
   "files"           : [
 	"dist",
 	"src",
