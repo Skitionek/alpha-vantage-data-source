@@ -2,7 +2,8 @@
 	"name": "alpha-vantage-data-source",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/",
-	  	"access"  : "public"
+	  	"access"  : "public",
+		  "scope"   : "@skitionek"
 	},
 	"release": {
 	"plugins": [
