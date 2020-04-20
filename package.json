@@ -12,7 +12,7 @@
 		"@semantic-release/github", {
 		"name"         : "@skitionek/alpha-vantage-data-source",
 		"publishConfig": {
-		  "registry": "https://npm.pkg.github.com/@skitionek",
+		  "registry": "https://npm.pkg.github.com/",
 		  "scope"   : "@skitionek"
 		}
 	  }
