@@ -8,7 +8,7 @@ import AlphaVantageAPI from "../src";
 import * as variables from "../src/mocks/demoVariableSets";
 import { obtainStructure } from "./utils";
 
-jest.setTimeout(30000);
+jest.setTimeout(60000);
 
 let alpha;
 beforeAll(() => {
