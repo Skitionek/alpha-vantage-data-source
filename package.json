@@ -2,7 +2,7 @@
 	"name": "alpha-vantage-data-source",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/",
-	  	"access"  : "public"
+		"access": "public"
 	},
 	"release": {
 		"plugins": [
@@ -19,7 +19,7 @@
 		],
 		"branch": "master"
 	},
-	"version": "2.2.31",
+	"version": "2.2.33",
 	"description": "",
 	"main": "index.js",
 	"files": [
