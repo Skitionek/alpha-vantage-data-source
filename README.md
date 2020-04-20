@@ -1,7 +1,7 @@
 # AlphaVantage
 [![Greenkeeper badge](https://badges.greenkeeper.io/Skitionek/alpha-vantage-data-source.svg)](https://greenkeeper.io/)
-![Intergation test](https://github.com/skitionek/alpha-vantage-data-source/workflows/Intergation%20test/badge.svg)
-![CI](https://github.com/skitionek/alpha-vantage-data-source/workflows/Release%20on%20npm/badge.svg)
+[![Intergation test](https://github.com/skitionek/alpha-vantage-data-source/workflows/Intergation%20test/badge.svg)](https://github.com/Skitionek/alpha-vantage-data-source/actions?query=workflow%3A%22Intergation+test%22)
+[![CI](https://github.com/skitionek/alpha-vantage-data-source/workflows/CI/badge.svg)](https://github.com/Skitionek/alpha-vantage-data-source/actions?query=workflow%3ACI)
 
 This is a simple wrapper around the [Alpha Vantage API](https://www.alphavantage.co/documentation/) hosted on [NPM](https://www.npmjs.com/package/alphavantage). I have no affiliation with AlphaVantage.
 
