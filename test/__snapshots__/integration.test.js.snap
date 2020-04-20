@@ -29,8 +29,8 @@ Object {
 
 exports[`crypto exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
 Object {
-  "ask_price": null,
-  "bid_price": null,
+  "ask_price": "Float",
+  "bid_price": "Float",
   "exchange_rate": "Float",
   "from_currency_code": "String",
   "from_currency_name": "String",
@@ -593,6 +593,22 @@ Object {
 }
 `;
 
+exports[`data quote {"symbol":"300135.SHZ"} 1`] = `
+Object {
+  "change": "Float",
+  "change_percent": "String",
+  "close": null,
+  "date": "Timestamp/Date",
+  "high": "Float",
+  "low": "Float",
+  "open": "Float",
+  "previous_close": "Float",
+  "price": "Float",
+  "symbol": "String",
+  "volume": "Float",
+}
+`;
+
 exports[`data quote {"symbol":"300135.SZ"} 1`] = `
 Object {
   "change": "Float",
@@ -771,8 +787,8 @@ Object {
 
 exports[`forex exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
 Object {
-  "ask_price": null,
-  "bid_price": null,
+  "ask_price": "Float",
+  "bid_price": "Float",
   "exchange_rate": "Float",
   "from_currency_code": "String",
   "from_currency_name": "String",
@@ -1000,7 +1016,7 @@ Object {
 exports[`performance sector {} 1`] = `
 Object {
   "information": "String",
-  "last_refreshed": "String",
+  "last_refreshed": "Timestamp/Date",
   "rank_a_real_time_performance": Object {
     "communication_services": "String",
     "consumer_discretionary": "String",
@@ -1102,6 +1118,7 @@ Object {
     "industrials": "String",
     "information_technology": "String",
     "materials": "String",
+    "real_estate": "String",
     "utilities": "String",
   },
   "rank_i_year_performance": Object {

@@ -7,7 +7,7 @@
     "5. Exchange Rate": 0.123456789,
     "6. Last Refreshed": "1970-01-01 01:00:00",
     "7. Time Zone": "String",
-    "8. Bid Price": "-",
-    "9. Ask Price": "-"
+    "8. Bid Price": 0.123456789,
+    "9. Ask Price": 0.123456789
   }
 }

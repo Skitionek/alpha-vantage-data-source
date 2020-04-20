@@ -45,7 +45,7 @@ export const data = {
 	monthly_adjusted: monthly,
 	quote: [{ symbol: "MSFT" },
 		{
-			symbol: "300135.SZ"
+			symbol: "300135.SHZ"
 		}],
 	search: [
 		{ keywords: "BA" },
