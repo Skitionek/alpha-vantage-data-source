@@ -1,5 +1,6 @@
 {
 	"name": "alpha-vantage-data-source",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
 	"version": "2.2.30",
 	"description": "",
 	"main": "index.js",
