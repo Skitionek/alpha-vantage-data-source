@@ -24,7 +24,7 @@ describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", gro
 			const response1time = performance.now();
 			await alpha[groupKey][key](varSet);
 			const response2time = performance.now();
-			console.log(response1time - start + 1,'>',response2time - response1time);
+			console.log(response1time - start + 1,'>>',response2time - response1time);
 			expect(response1time - start + 1).toBeGreaterThan(response2time - response1time)
 		});
 	})

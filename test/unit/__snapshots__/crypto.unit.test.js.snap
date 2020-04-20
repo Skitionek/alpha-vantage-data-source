@@ -29,8 +29,8 @@ Object {
 
 exports[`exchangeRates data works 1`] = `
 Object {
-  "ask_price": null,
-  "bid_price": null,
+  "ask_price": "Float",
+  "bid_price": "Float",
   "exchange_rate": "Float",
   "from_currency_code": "String",
   "from_currency_name": "String",
