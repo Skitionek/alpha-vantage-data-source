@@ -2,33 +2,34 @@
 	"name": "alpha-vantage-data-source",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/",
-	  	"access"  : "public"
+		"access": "public"
 	},
 	"release": {
-	"plugins": [
-	  "@semantic-release/commit-analyzer",
-	  "@semantic-release/release-notes-generator",
-	  [
-		"@semantic-release/github", {
-		"name"         : "@skitionek/alpha-vantage-data-source",
-		"publishConfig": {
-		  "registry": "https://npm.pkg.github.com/",
-		  "scope"   : "@skitionek"
-		}
-	  }
-	  ],
-	  [
-		"@semantic-release/npm",
-		{
-		  "npmPublish": true
-		}
-	  ],
-	  "@semantic-release/changelog",
-	  "@semantic-release/git"
-	],
-	"branch" : "master"
+		"plugins": [
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator",
+			[
+				"@semantic-release/github",
+				{
+					"name": "@skitionek/alpha-vantage-data-source",
+					"publishConfig": {
+						"registry": "https://npm.pkg.github.com/",
+						"scope": "@skitionek"
+					}
+				}
+			],
+			[
+				"@semantic-release/npm",
+				{
+					"npmPublish": true
+				}
+			],
+			"@semantic-release/changelog",
+			"@semantic-release/git"
+		],
+		"branch": "master"
 	},
-	"version": "2.2.31",
+	"version": "2.2.35",
 	"description": "",
 	"main": "index.js",
 	"files": [

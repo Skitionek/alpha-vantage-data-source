@@ -1,3 +1,10 @@
+## [2.2.35](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.34...v2.2.35) (2020-04-20)
+
+
+### Bug Fixes
+
+* getting CI to work ([49fbdd5](https://github.com/Skitionek/alpha-vantage-data-source/commit/49fbdd511e7e669a1e0d591a9e40b41656673985))
+
 ## [2.2.34](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.33...v2.2.34) (2020-04-20)
 
 
