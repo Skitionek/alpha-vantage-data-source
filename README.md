@@ -1,67 +1,54 @@
 # AlphaVantage
-
-## Outdated readme
-[![Build Status](https://travis-ci.com/Skitionek/alpha-vantage-data-source.svg?branch=master)](https://travis-ci.com/Skitionek/alpha-vantage-data-source)
-[![Coverage Status](https://coveralls.io/repos/github/Skitionek/alpha-vantage-data-source/badge.svg?branch=master)](https://coveralls.io/github/Skitionek/alpha-vantage-data-source?branch=master)[![Greenkeeper badge](https://badges.greenkeeper.io/Skitionek/alpha-vantage-data-source.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Skitionek/alpha-vantage-data-source.svg)](https://greenkeeper.io/)
+![Intergation test](https://github.com/skitionek/alpha-vantage-data-source/workflows/Intergation%20test/badge.svg)
+![CI](https://github.com/skitionek/alpha-vantage-data-source/workflows/Release%20on%20npm/badge.svg)
 
 This is a simple wrapper around the [Alpha Vantage API](https://www.alphavantage.co/documentation/) hosted on [NPM](https://www.npmjs.com/package/alphavantage). I have no affiliation with AlphaVantage.
 
-All contributions are welcome! This is an open source project under the MIT license, see [LICENSE.md](LICENSE.md) for additional information.
+## Contents
 
-`All available functions with this SDK have the same parameters as listed in the the Alpha Vantage Docs, without the "function" or "apikey". Do not include the "function" or "apikey" parameters when using this library. All functions return promises with the response data.`
+1. [Installation](#installation)
+2. [Usage](#usage)
+    - [Data](#data)
+    - [Forex](#forex)
+    - [Crypto](#crypto)
+    - [Technicals](#technicals)
+    - [Performance](#performance)
+    - [Util](#util)
+3. [Coverage](#coverage)
+4. [Testing](#testing)
+5. [Mocking](#mocking)
+6. [Data structure overview](#data_structure_overview)
+7. [Contributing](#contributing)
+8. [Credits](#credits)
+
 
 ## Installation
 ```bash
-npm i alphavantage
+npm i alpha-vantage-data-source
 ```
 
 ## Usage
 
+The library is initialised in straight forward manner by simply providing AlphaVantage access key:
 ```javascript
-/**
- * Init Alpha Vantage with your API key.
- *
- * @param {String} key
- *   Your Alpha Vantage API key.
- */
-const alpha = require('alphavantage')({ key: 'qweqweqwe' });
+const alpha = require('alpha-vantage-data-source')({ key: 'demo' });
+```
+This access key might be set by environmental variable 'AV_KEY' if needed.
 
-// Simple examples
-alpha.data.intraday(`msft`).then(data => {
-  console.log(data);
-});
-
-alpha.data.batch([`msft`, `aapl`]).then(data => {
-  console.log(data);
-});
-
-alpha.forex.rate('btc', 'usd').then(data => {
-  console.log(data);
-})
-
-alpha.crypto.daily('btc', 'usd').then(data => {
-  console.log(data);
-})
-
-alpha.technical.sma(`msft`, `daily`, 60, `close`).then(data => {
-  console.log(data);
-})
-
-alpha.performance.sector().then(data => {
-  console.log(data);
-});
+Once this library ins initialised, data can be accessed by navigating to functions corresponding to AlphaVantage API:
+```javascript
+alpha.data.intraday(`msft`)
+alpha.data.batch([`msft`, `aapl`])
+alpha.forex.rate('btc', 'usd')
+alpha.crypto.daily('btc', 'usd')
+alpha.technical.sma(`msft`, `daily`, 60, `close`)
+alpha.performance.sector()
 ```
 
-## Util
+Whole list of available functions is as follows"
 
-Data polishing
-  - Rewrite weird data keys to be consistent across all api calls. This is an optional utility you can use with the result of any api call.
-
-```javascript
-const polished = alpha.util.polish(data);
-```
-
-## Data
+### Data
 
 See [Alpha Vantage](https://www.alphavantage.co/documentation/#time-series-data) for the parameters.
 ```javascript
@@ -77,23 +64,24 @@ alpha.data.search(keywords)
 alpha.data.batch([symbol1, symbol2..])
 ```
 
-## Forex
+### Forex
 
 See [Alpha Vantage](https://www.alphavantage.co/documentation/#fx) for the parameters.
 ```javascript
 alpha.forex.rate(from_currency, to_currency)
 ```
 
-## Crypto
+### Crypto
 
 See [Alpha Vantage](https://www.alphavantage.co/documentation/#digital-currency) for the parameters.
+
 ```javascript
 alpha.crypto.daily(symbol, market)
 alpha.crypto.weekly(symbol, market)
 alpha.crypto.monthly(symbol, market)
 ```
 
-## Technicals
+### Technicals
 
 See [Alpha Vantage](https://www.alphavantage.co/documentation/#technical-indicators) for the parameters.
 ```javascript
@@ -151,19 +139,49 @@ alpha.technical.ht_dcphase(symbol, interval, series_type)
 alpha.technical.ht_dcphasor(symbol, interval, series_type)
 ```
 
-## Performance
+### Performance
 
 See [Alpha Vantage](https://www.alphavantage.co/documentation/#sector-information) for the parameters.
 ```javascript
 alpha.performance.sector()
 ```
 
+### Util
+
+Data polishing
+  - Rewrite data keys to be consistent across all api calls. This is an optional utility you can use with the result of any api call.
+
+```javascript
+const polished = alpha.util.polish(data);
+```
+
+## Coverage
+
+As of time of witting this library gives access you all data provided by AlphaVantage. Including comprehensive tests, unit as well as integration (integration tests are validating response for all queries available when using 'demo' key). 
+
+## Testing
+
+This package implements extensive testing, which is used to validate all functionally and also that this package remains up to date with currently exposed version of AlphaVantage API. Automatic cron job runs integration tests every day to keep track if API did not change.
+
+## Mocking
+
+Additionally this project also exposes internally used testing mocks. 
+```javascript
+const alpha_mocks = require('alpha-vantage-data-source/mocks')
+```
+
+## Data structure overview
+
+For ease of integration structure of underlying data is summarised in autogenerated file 'ApiTree.json'. 
+
 ## Contributing
 
-All contributions are welcome! The purpose of this library is to keep function parity with the Alpha Vantage API, while keeping a slim and intuitive programming interface. Before any pull requests are made, please run `npm run lint` to fix style issues and ensure that all test are passing `npm test`. The codebase should always remain at 100% test coverage.
+All contributions are welcome! This is an open source project under the MIT license, see [LICENSE.md](LICENSE.md) for additional information.
+
+## Credits
 
 Core has been forked from:
   - Author: Zack Urben
   - Twitter: https://twitter.com/zackurben (better)
   - Contact: zackurben@gmail.com
-yet greatest part in common is it's structure. Current version support full API coverage, requests cache and  non duck-type keys normalisation.
+yet greatest part in common is it's structure. Current version support full API coverage, requests cache and non duck-typed keys normalisation.

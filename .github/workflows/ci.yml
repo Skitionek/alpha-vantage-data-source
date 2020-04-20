@@ -1,4 +1,4 @@
-name: Release on npm
+name: CI
 on:
   push:
     branches:
