@@ -187,32 +187,7 @@ Compared values have no visual difference.
 
 exports[`technical ema 1`] = `
 Snapshot Diff:
-- First value
-+ Second value
-
-  Object {
-    "data": Array [
-      Object {
-+       "close": "Float",
-        "date": "Timestamp/Date",
-+       "high": "Float",
-+       "low": "Float",
-+       "open": "Float",
-        "value": "Float",
-      },
-    ],
-+   "from_symbol": "String",
-    "indicator": "String",
-+   "information": "String",
-    "interval": "Interval",
-    "last_refreshed": "Timestamp/Date",
-+   "output_size": "String",
-    "series_type": "String",
-    "symbol": "String",
-    "time_period": "Float",
-    "time_zone": "String",
-+   "to_symbol": "String",
-  }
+Compared values have no visual difference.
 `;
 
 exports[`technical ht_dcperiod 1`] = `
