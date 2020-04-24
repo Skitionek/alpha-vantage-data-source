@@ -1,3 +1,10 @@
+## [2.2.39](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.38...v2.2.39) (2020-04-23)
+
+
+### Bug Fixes
+
+* deps ([3baf9cb](https://github.com/Skitionek/alpha-vantage-data-source/commit/3baf9cb2c1f9f430fc46fc85b3c19883987846ab))
+
 ## [2.2.38](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.37...v2.2.38) (2020-04-20)
 
 
