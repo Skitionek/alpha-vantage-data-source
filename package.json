@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
 	},
 	"release": {
 		"plugins": [
