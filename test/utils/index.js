@@ -5,11 +5,11 @@
 */
 
 export const FIELD_TYPES = {
-	TIMESTAMP: "Timestamp/Date",
-	STRING: "String",
-	FLOAT: "Float",
-	DATE: "Timestamp/Date",
-	INTERVAL: "Interval"
+	TIMESTAMP: null, //"Timestamp/Date",
+	STRING: null, //"String",
+	FLOAT: null, //"Float",
+	DATE: null, //"Timestamp/Date",
+	INTERVAL: null, //"Interval"
 };
 export const INTERVALS = [
 	'1min', '5min', '15min', '30min', '60min', 'daily', 'weekly', 'monthly'

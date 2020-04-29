@@ -4,54 +4,54 @@ exports[`crypto daily {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "from_close": "Float",
-      "from_high": "Float",
-      "from_low": "Float",
-      "from_open": "Float",
-      "market_cap": "Float",
-      "to_close": "Float",
-      "to_high": "Float",
-      "to_low": "Float",
-      "to_open": "Float",
-      "volume": "Float",
+      "date": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
+      "volume": null,
     },
   ],
-  "digital_currency_code": "String",
-  "digital_currency_name": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "market_code": "String",
-  "market_name": "String",
-  "time_zone": "String",
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
 }
 `;
 
 exports[`crypto exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
 Object {
-  "ask_price": "Float",
-  "bid_price": "Float",
-  "exchange_rate": "Float",
-  "from_currency_code": "String",
-  "from_currency_name": "String",
-  "last_refreshed": "Timestamp/Date",
-  "time_zone": "String",
-  "to_currency_code": "String",
-  "to_currency_name": "String",
+  "ask_price": null,
+  "bid_price": null,
+  "exchange_rate": null,
+  "from_currency_code": null,
+  "from_currency_name": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_currency_code": null,
+  "to_currency_name": null,
 }
 `;
 
 exports[`crypto exchangeRates {"from_currency":"USD","to_currency":"JPY"} 1`] = `
 Object {
-  "ask_price": "Float",
-  "bid_price": "Float",
-  "exchange_rate": "Float",
-  "from_currency_code": "String",
-  "from_currency_name": "String",
-  "last_refreshed": "Timestamp/Date",
-  "time_zone": "String",
-  "to_currency_code": "String",
-  "to_currency_name": "String",
+  "ask_price": null,
+  "bid_price": null,
+  "exchange_rate": null,
+  "from_currency_code": null,
+  "from_currency_name": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_currency_code": null,
+  "to_currency_name": null,
 }
 `;
 
@@ -59,26 +59,26 @@ exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"da
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "from_close": "Float",
-      "from_high": "Float",
-      "from_low": "Float",
-      "from_open": "Float",
-      "market_cap": "Float",
-      "to_close": "Float",
-      "to_high": "Float",
-      "to_low": "Float",
-      "to_open": "Float",
-      "volume": "Float",
+      "date": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
+      "volume": null,
     },
   ],
-  "digital_currency_code": "String",
-  "digital_currency_name": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "market_code": "String",
-  "market_name": "String",
-  "time_zone": "String",
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
 }
 `;
 
@@ -86,26 +86,26 @@ exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"da
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "from_close": "Float",
-      "from_high": "Float",
-      "from_low": "Float",
-      "from_open": "Float",
-      "market_cap": "Float",
-      "to_close": "Float",
-      "to_high": "Float",
-      "to_low": "Float",
-      "to_open": "Float",
-      "volume": "Float",
+      "date": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
+      "volume": null,
     },
   ],
-  "digital_currency_code": "String",
-  "digital_currency_name": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "market_code": "String",
-  "market_name": "String",
-  "time_zone": "String",
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
 }
 `;
 
@@ -113,26 +113,26 @@ exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"mo
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "from_close": "Float",
-      "from_high": "Float",
-      "from_low": "Float",
-      "from_open": "Float",
-      "market_cap": "Float",
-      "to_close": "Float",
-      "to_high": "Float",
-      "to_low": "Float",
-      "to_open": "Float",
-      "volume": "Float",
+      "date": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
+      "volume": null,
     },
   ],
-  "digital_currency_code": "String",
-  "digital_currency_name": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "market_code": "String",
-  "market_name": "String",
-  "time_zone": "String",
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
 }
 `;
 
@@ -140,26 +140,26 @@ exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"we
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "from_close": "Float",
-      "from_high": "Float",
-      "from_low": "Float",
-      "from_open": "Float",
-      "market_cap": "Float",
-      "to_close": "Float",
-      "to_high": "Float",
-      "to_low": "Float",
-      "to_open": "Float",
-      "volume": "Float",
+      "date": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
+      "volume": null,
     },
   ],
-  "digital_currency_code": "String",
-  "digital_currency_name": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "market_code": "String",
-  "market_name": "String",
-  "time_zone": "String",
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
 }
 `;
 
@@ -167,26 +167,26 @@ exports[`crypto monthly {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "from_close": "Float",
-      "from_high": "Float",
-      "from_low": "Float",
-      "from_open": "Float",
-      "market_cap": "Float",
-      "to_close": "Float",
-      "to_high": "Float",
-      "to_low": "Float",
-      "to_open": "Float",
-      "volume": "Float",
+      "date": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
+      "volume": null,
     },
   ],
-  "digital_currency_code": "String",
-  "digital_currency_name": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "market_code": "String",
-  "market_name": "String",
-  "time_zone": "String",
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
 }
 `;
 
@@ -194,26 +194,26 @@ exports[`crypto weekly {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "from_close": "Float",
-      "from_high": "Float",
-      "from_low": "Float",
-      "from_open": "Float",
-      "market_cap": "Float",
-      "to_close": "Float",
-      "to_high": "Float",
-      "to_low": "Float",
-      "to_open": "Float",
-      "volume": "Float",
+      "date": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
+      "volume": null,
     },
   ],
-  "digital_currency_code": "String",
-  "digital_currency_name": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "market_code": "String",
-  "market_name": "String",
-  "time_zone": "String",
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
 }
 `;
 
@@ -221,19 +221,19 @@ exports[`data daily {"symbol":"MSFT","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -241,19 +241,19 @@ exports[`data daily {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -261,22 +261,22 @@ exports[`data daily_adjusted {"symbol":"MSFT","outputsize":"full"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "split_coefficient": "Float",
-      "volume": "Float",
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "split_coefficient": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -284,22 +284,22 @@ exports[`data daily_adjusted {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "split_coefficient": "Float",
-      "volume": "Float",
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "split_coefficient": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -307,20 +307,20 @@ exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"5min","outputsize"
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -328,20 +328,20 @@ exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"5min"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -349,19 +349,19 @@ exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -369,18 +369,18 @@ exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"monthly"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -388,18 +388,18 @@ exports[`data exchangeTimeSeries {"symbol":"MSFT","interval":"weekly"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -407,19 +407,19 @@ exports[`data exchangeTimeSeries {"symbol":"MSFT","outputsize":"full","interval"
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -427,22 +427,22 @@ exports[`data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"daily"} 1
 Object {
   "data": Array [
     Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "split_coefficient": "Float",
-      "volume": "Float",
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "split_coefficient": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -450,20 +450,20 @@ exports[`data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"monthly"}
 Object {
   "data": Array [
     Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -471,20 +471,20 @@ exports[`data exchangeTimeSeries_adjusted {"symbol":"MSFT","interval":"weekly"} 
 Object {
   "data": Array [
     Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -492,22 +492,22 @@ exports[`data exchangeTimeSeries_adjusted {"symbol":"MSFT","outputsize":"full","
 Object {
   "data": Array [
     Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "split_coefficient": "Float",
-      "volume": "Float",
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "split_coefficient": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -515,20 +515,20 @@ exports[`data intraday {"symbol":"MSFT","interval":"5min","outputsize":"full"} 1
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -536,20 +536,20 @@ exports[`data intraday {"symbol":"MSFT","interval":"5min"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -557,18 +557,18 @@ exports[`data monthly {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -576,67 +576,67 @@ exports[`data monthly_adjusted {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
 exports[`data quote {"symbol":"300135.SHZ"} 1`] = `
 Object {
-  "change": "Float",
-  "change_percent": "String",
+  "change": null,
+  "change_percent": null,
   "close": null,
-  "date": "Timestamp/Date",
-  "high": "Float",
-  "low": "Float",
-  "open": "Float",
-  "previous_close": "Float",
-  "price": "Float",
-  "symbol": "String",
-  "volume": "Float",
+  "date": null,
+  "high": null,
+  "low": null,
+  "open": null,
+  "previous_close": null,
+  "price": null,
+  "symbol": null,
+  "volume": null,
 }
 `;
 
 exports[`data quote {"symbol":"MSFT"} 1`] = `
 Object {
-  "change": "Float",
-  "change_percent": "String",
+  "change": null,
+  "change_percent": null,
   "close": null,
-  "date": "Timestamp/Date",
-  "high": "Float",
-  "low": "Float",
-  "open": "Float",
-  "previous_close": "Float",
-  "price": "Float",
-  "symbol": "String",
-  "volume": "Float",
+  "date": null,
+  "high": null,
+  "low": null,
+  "open": null,
+  "previous_close": null,
+  "price": null,
+  "symbol": null,
+  "volume": null,
 }
 `;
 
 exports[`data search {"keywords":"BA"} 1`] = `
 Array [
   Object {
-    "currency": "String",
-    "marketclose": "String",
-    "marketopen": "String",
-    "matchscore": "Float",
-    "name": "String",
-    "region": "String",
-    "symbol": "String",
-    "timezone": "String",
-    "type": "String",
+    "currency": null,
+    "marketclose": null,
+    "marketopen": null,
+    "matchscore": null,
+    "name": null,
+    "region": null,
+    "symbol": null,
+    "timezone": null,
+    "type": null,
   },
 ]
 `;
@@ -644,15 +644,15 @@ Array [
 exports[`data search {"keywords":"Micro"} 1`] = `
 Array [
   Object {
-    "currency": "String",
-    "marketclose": "String",
-    "marketopen": "String",
-    "matchscore": "Float",
-    "name": "String",
-    "region": "String",
-    "symbol": "String",
-    "timezone": "String",
-    "type": "String",
+    "currency": null,
+    "marketclose": null,
+    "marketopen": null,
+    "matchscore": null,
+    "name": null,
+    "region": null,
+    "symbol": null,
+    "timezone": null,
+    "type": null,
   },
 ]
 `;
@@ -660,15 +660,15 @@ Array [
 exports[`data search {"keywords":"sony"} 1`] = `
 Array [
   Object {
-    "currency": "String",
-    "marketclose": "String",
-    "marketopen": "String",
-    "matchscore": "Float",
-    "name": "String",
-    "region": "String",
-    "symbol": "String",
-    "timezone": "String",
-    "type": "String",
+    "currency": null,
+    "marketclose": null,
+    "marketopen": null,
+    "matchscore": null,
+    "name": null,
+    "region": null,
+    "symbol": null,
+    "timezone": null,
+    "type": null,
   },
 ]
 `;
@@ -676,15 +676,15 @@ Array [
 exports[`data search {"keywords":"xiaomi"} 1`] = `
 Array [
   Object {
-    "currency": "String",
-    "marketclose": "String",
-    "marketopen": "String",
-    "matchscore": "Float",
-    "name": "String",
-    "region": "String",
-    "symbol": "String",
-    "timezone": "String",
-    "type": "String",
+    "currency": null,
+    "marketclose": null,
+    "marketopen": null,
+    "matchscore": null,
+    "name": null,
+    "region": null,
+    "symbol": null,
+    "timezone": null,
+    "type": null,
   },
 ]
 `;
@@ -693,18 +693,18 @@ exports[`data weekly {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -712,20 +712,20 @@ exports[`data weekly_adjusted {"symbol":"MSFT"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": "Float",
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "dividend_amount": "Float",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
-      "volume": "Float",
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
     },
   ],
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -733,19 +733,19 @@ exports[`forex daily {"from_symbol":"EUR","to_symbol":"USD","outputsize":"full"}
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -753,47 +753,47 @@ exports[`forex daily {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
 exports[`forex exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
 Object {
-  "ask_price": "Float",
-  "bid_price": "Float",
-  "exchange_rate": "Float",
-  "from_currency_code": "String",
-  "from_currency_name": "String",
-  "last_refreshed": "Timestamp/Date",
-  "time_zone": "String",
-  "to_currency_code": "String",
-  "to_currency_name": "String",
+  "ask_price": null,
+  "bid_price": null,
+  "exchange_rate": null,
+  "from_currency_code": null,
+  "from_currency_name": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_currency_code": null,
+  "to_currency_name": null,
 }
 `;
 
 exports[`forex exchangeRates {"from_currency":"USD","to_currency":"JPY"} 1`] = `
 Object {
-  "ask_price": "Float",
-  "bid_price": "Float",
-  "exchange_rate": "Float",
-  "from_currency_code": "String",
-  "from_currency_name": "String",
-  "last_refreshed": "Timestamp/Date",
-  "time_zone": "String",
-  "to_currency_code": "String",
-  "to_currency_name": "String",
+  "ask_price": null,
+  "bid_price": null,
+  "exchange_rate": null,
+  "from_currency_code": null,
+  "from_currency_name": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_currency_code": null,
+  "to_currency_name": null,
 }
 `;
 
@@ -801,20 +801,20 @@ exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interv
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -822,20 +822,20 @@ exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interv
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -843,19 +843,19 @@ exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interv
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -863,19 +863,19 @@ exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interv
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -883,18 +883,18 @@ exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interv
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -902,18 +902,18 @@ exports[`forex exchangeTimeSeries {"from_symbol":"EUR","to_symbol":"USD","interv
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -921,20 +921,20 @@ exports[`forex intraday {"from_symbol":"EUR","to_symbol":"USD","interval":"5min"
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -942,20 +942,20 @@ exports[`forex intraday {"from_symbol":"EUR","to_symbol":"USD","interval":"5min"
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "output_size": "String",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -963,18 +963,18 @@ exports[`forex monthly {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
@@ -982,152 +982,152 @@ exports[`forex weekly {"from_symbol":"EUR","to_symbol":"USD"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": "Float",
-      "date": "Timestamp/Date",
-      "high": "Float",
-      "low": "Float",
-      "open": "Float",
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
     },
   ],
-  "from_symbol": "String",
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
-  "time_zone": "String",
-  "to_symbol": "String",
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_symbol": null,
 }
 `;
 
 exports[`performance sector {} 1`] = `
 Object {
-  "information": "String",
-  "last_refreshed": "Timestamp/Date",
+  "information": null,
+  "last_refreshed": null,
   "rank_a_real_time_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "real_estate": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "real_estate": null,
+    "utilities": null,
   },
   "rank_b_day_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "real_estate": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "real_estate": null,
+    "utilities": null,
   },
   "rank_c_day_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "real_estate": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "real_estate": null,
+    "utilities": null,
   },
   "rank_d_month_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "real_estate": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "real_estate": null,
+    "utilities": null,
   },
   "rank_e_month_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "real_estate": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "real_estate": null,
+    "utilities": null,
   },
   "rank_f_year_to_date_ytd_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "real_estate": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "real_estate": null,
+    "utilities": null,
   },
   "rank_g_year_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "real_estate": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "real_estate": null,
+    "utilities": null,
   },
   "rank_h_year_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "real_estate": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "real_estate": null,
+    "utilities": null,
   },
   "rank_i_year_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "utilities": null,
   },
   "rank_j_year_performance": Object {
-    "communication_services": "String",
-    "consumer_discretionary": "String",
-    "consumer_staples": "String",
-    "energy": "String",
-    "financials": "String",
-    "health_care": "String",
-    "industrials": "String",
-    "information_technology": "String",
-    "materials": "String",
-    "utilities": "String",
+    "communication_services": null,
+    "consumer_discretionary": null,
+    "consumer_staples": null,
+    "energy": null,
+    "financials": null,
+    "health_care": null,
+    "industrials": null,
+    "information_technology": null,
+    "materials": null,
+    "utilities": null,
   },
 }
 `;
@@ -1136,15 +1136,15 @@ exports[`technical ad {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1152,17 +1152,17 @@ exports[`technical adosc {"symbol":"MSFT","interval":"daily","fastperiod":5} 1`]
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "fastk_period": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "slowk_period": "Float",
-  "symbol": "String",
-  "time_zone": "String",
+  "fastk_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "slowk_period": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1170,16 +1170,16 @@ exports[`technical adx {"symbol":"MSFT","interval":"daily","time_period":10} 1`]
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1187,16 +1187,16 @@ exports[`technical adxr {"symbol":"MSFT","interval":"daily","time_period":10} 1`
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1204,19 +1204,19 @@ exports[`technical apo {"symbol":"MSFT","interval":"daily","series_type":"close"
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "fast_period": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "ma_type": "Float",
-  "series_type": "String",
-  "slow_period": "Float",
-  "symbol": "String",
-  "time_zone": "String",
+  "fast_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "ma_type": null,
+  "series_type": null,
+  "slow_period": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1224,17 +1224,17 @@ exports[`technical aroon {"symbol":"MSFT","interval":"daily","time_period":14} 1
 Object {
   "data": Array [
     Object {
-      "aroon_down": "Float",
-      "aroon_up": "Float",
-      "date": "Timestamp/Date",
+      "aroon_down": null,
+      "aroon_up": null,
+      "date": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1242,16 +1242,16 @@ exports[`technical aroonosc {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1259,16 +1259,16 @@ exports[`technical atr {"symbol":"MSFT","interval":"daily","time_period":14} 1`]
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1276,22 +1276,22 @@ exports[`technical bbands {"symbol":"MSFT","interval":"weekly","time_period":5,"
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "real_lower_band": "Float",
-      "real_middle_band": "Float",
-      "real_upper_band": "Float",
+      "date": null,
+      "real_lower_band": null,
+      "real_middle_band": null,
+      "real_upper_band": null,
     },
   ],
-  "deviation_multiplier_for_lower_band": "Float",
-  "deviation_multiplier_for_upper_band": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "ma_type": "Float",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "deviation_multiplier_for_lower_band": null,
+  "deviation_multiplier_for_upper_band": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "ma_type": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1299,15 +1299,15 @@ exports[`technical bop {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1315,16 +1315,16 @@ exports[`technical cci {"symbol":"MSFT","interval":"daily","time_period":10} 1`]
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1332,17 +1332,17 @@ exports[`technical cmo {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1350,17 +1350,17 @@ exports[`technical dema {"symbol":"MSFT","interval":"weekly","time_period":10,"s
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1368,16 +1368,16 @@ exports[`technical dx {"symbol":"MSFT","interval":"daily","time_period":10} 1`] 
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1385,17 +1385,17 @@ exports[`technical ema {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1403,16 +1403,16 @@ exports[`technical ht_dcperiod {"symbol":"MSFT","interval":"daily","series_type"
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1420,16 +1420,16 @@ exports[`technical ht_dcphase {"symbol":"MSFT","interval":"daily","series_type":
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1437,17 +1437,17 @@ exports[`technical ht_phasor {"symbol":"MSFT","interval":"weekly","series_type":
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "phase": "Float",
-      "quadrature": "Float",
+      "date": null,
+      "phase": null,
+      "quadrature": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1455,17 +1455,17 @@ exports[`technical ht_sine {"symbol":"MSFT","interval":"daily","series_type":"cl
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "lead_sine": "Float",
-      "sine": "Float",
+      "date": null,
+      "lead_sine": null,
+      "sine": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1473,16 +1473,16 @@ exports[`technical ht_trendline {"symbol":"MSFT","interval":"daily","series_type
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1490,16 +1490,16 @@ exports[`technical ht_trendmode {"symbol":"MSFT","interval":"weekly","series_typ
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1507,17 +1507,17 @@ exports[`technical kama {"symbol":"MSFT","interval":"weekly","time_period":10,"s
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1525,21 +1525,21 @@ exports[`technical macd {"symbol":"MSFT","interval":"daily","series_type":"open"
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "macd": "Float",
-      "macd_hist": "Float",
-      "macd_signal": "Float",
+      "date": null,
+      "macd": null,
+      "macd_hist": null,
+      "macd_signal": null,
     },
   ],
-  "fast_period": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "signal_period": "Float",
-  "slow_period": "Float",
-  "symbol": "String",
-  "time_zone": "String",
+  "fast_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "signal_period": null,
+  "slow_period": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1547,24 +1547,24 @@ exports[`technical macdext {"symbol":"MSFT","interval":"daily","series_type":"op
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "macd": "Float",
-      "macd_hist": "Float",
-      "macd_signal": "Float",
+      "date": null,
+      "macd": null,
+      "macd_hist": null,
+      "macd_signal": null,
     },
   ],
-  "fast_ma_type": "Float",
-  "fast_period": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "signal_ma_type": "Float",
-  "signal_period": "Float",
-  "slow_ma_type": "Float",
-  "slow_period": "Float",
-  "symbol": "String",
-  "time_zone": "String",
+  "fast_ma_type": null,
+  "fast_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "signal_ma_type": null,
+  "signal_period": null,
+  "slow_ma_type": null,
+  "slow_period": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1572,19 +1572,19 @@ exports[`technical mama {"symbol":"MSFT","interval":"daily","series_type":"close
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "fama": "Float",
-      "mama": "Float",
+      "date": null,
+      "fama": null,
+      "mama": null,
     },
   ],
-  "fast_limit": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "slow_limit": "Float",
-  "symbol": "String",
-  "time_zone": "String",
+  "fast_limit": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "slow_limit": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1592,16 +1592,16 @@ exports[`technical mfi {"symbol":"MSFT","interval":"weekly","time_period":10} 1`
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1609,17 +1609,17 @@ exports[`technical midpoint {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1627,16 +1627,16 @@ exports[`technical midprice {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1644,16 +1644,16 @@ exports[`technical minus_di {"symbol":"MSFT","interval":"weekly","time_period":1
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1661,16 +1661,16 @@ exports[`technical minus_dm {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1678,17 +1678,17 @@ exports[`technical mom {"symbol":"MSFT","interval":"daily","time_period":10,"ser
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1696,16 +1696,16 @@ exports[`technical natr {"symbol":"MSFT","interval":"weekly","time_period":14} 1
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1713,15 +1713,15 @@ exports[`technical obv {"symbol":"MSFT","interval":"weekly"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1729,16 +1729,16 @@ exports[`technical plus_di {"symbol":"MSFT","interval":"daily","time_period":10}
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1746,16 +1746,16 @@ exports[`technical plus_dm {"symbol":"MSFT","interval":"daily","time_period":10}
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1763,19 +1763,19 @@ exports[`technical ppo {"symbol":"MSFT","interval":"daily","series_type":"close"
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "fast_period": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "ma_type": "Float",
-  "series_type": "String",
-  "slow_period": "Float",
-  "symbol": "String",
-  "time_zone": "String",
+  "fast_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "ma_type": null,
+  "series_type": null,
+  "slow_period": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1783,17 +1783,17 @@ exports[`technical roc {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1801,17 +1801,17 @@ exports[`technical rocr {"symbol":"MSFT","interval":"daily","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1819,35 +1819,35 @@ exports[`technical rsi {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
 exports[`technical sar {"symbol":"MSFT","interval":"weekly","acceleration":0.05,"maximum":0.25} 1`] = `
 Object {
-  "acceleration": "Float",
+  "acceleration": null,
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "maximum": "Float",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "maximum": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1855,17 +1855,17 @@ exports[`technical sma {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1873,21 +1873,21 @@ exports[`technical stoch {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "slowd": "Float",
-      "slowk": "Float",
+      "date": null,
+      "slowd": null,
+      "slowk": null,
     },
   ],
-  "fastk_period": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "slowd_ma_type": "Float",
-  "slowd_period": "Float",
-  "slowk_ma_type": "Float",
-  "slowk_period": "Float",
-  "symbol": "String",
-  "time_zone": "String",
+  "fastk_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "slowd_ma_type": null,
+  "slowd_period": null,
+  "slowk_ma_type": null,
+  "slowk_period": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1895,19 +1895,19 @@ exports[`technical stochf {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "fastd": "Float",
-      "fastk": "Float",
+      "date": null,
+      "fastd": null,
+      "fastk": null,
     },
   ],
-  "fastd_ma_type": "Float",
-  "fastd_period": "Float",
-  "fastk_period": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "fastd_ma_type": null,
+  "fastd_period": null,
+  "fastk_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1915,21 +1915,21 @@ exports[`technical stochrsi {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "fastd": "Float",
-      "fastk": "Float",
+      "date": null,
+      "fastd": null,
+      "fastk": null,
     },
   ],
-  "fastd_ma_type": "Float",
-  "fastd_period": "Float",
-  "fastk_period": "Float",
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "fastd_ma_type": null,
+  "fastd_period": null,
+  "fastk_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1937,18 +1937,18 @@ exports[`technical t3 {"symbol":"MSFT","interval":"weekly","time_period":10,"ser
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
-  "volume_factor_vfactor": "Float",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
+  "volume_factor_vfactor": null,
 }
 `;
 
@@ -1956,17 +1956,17 @@ exports[`technical tema {"symbol":"MSFT","interval":"weekly","time_period":10,"s
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -1974,15 +1974,15 @@ exports[`technical trange {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -1990,17 +1990,17 @@ exports[`technical trima {"symbol":"MSFT","interval":"weekly","time_period":10,"
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -2008,17 +2008,17 @@ exports[`technical trix {"symbol":"MSFT","interval":"daily","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -2026,16 +2026,16 @@ exports[`technical ultosc {"symbol":"MSFT","interval":"daily","timeperiod":8} 1`
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -2043,15 +2043,15 @@ exports[`technical vwap {"symbol":"MSFT","interval":"15min"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
 }
 `;
 
@@ -2059,16 +2059,16 @@ exports[`technical willr {"symbol":"MSFT","interval":"daily","time_period":10} 1
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
 
@@ -2076,16 +2076,16 @@ exports[`technical wma {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Timestamp/Date",
-      "value": "Float",
+      "date": null,
+      "value": null,
     },
   ],
-  "indicator": "String",
-  "interval": "Interval",
-  "last_refreshed": "Timestamp/Date",
-  "series_type": "String",
-  "symbol": "String",
-  "time_period": "Float",
-  "time_zone": "String",
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "series_type": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
 }
 `;
