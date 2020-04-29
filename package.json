@@ -23,6 +23,12 @@
 		  "publish": "echo 'registry=https://npm.pkg.github.com/skitionek' > .npmrc"
 		}
 	  ],
+	  [
+		"@semantic-release/npm",
+		{
+		  "npmPublish": true
+		}
+	  ],
 	  "@semantic-release/github",
 	  [
 		"@semantic-release/exec",
