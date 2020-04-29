@@ -1,6 +1,6 @@
 {
   "name"            : "alpha-vantage-data-source",
-  "version"         : "2.2.39",
+  "version"         : "2.2.40",
   "description"     : "",
   "main"            : "index.js",
   "publishConfig"   : {
@@ -21,12 +21,6 @@
 		{
 		  "prepare": "echo 'registry=https://npm.pkg.github.com/skitionek' > .npmrc",
 		  "publish": "echo 'registry=https://npm.pkg.github.com/skitionek' > .npmrc"
-		}
-	  ],
-	  [
-		"@semantic-release/npm",
-		{
-		  "npmPublish": true
 		}
 	  ],
 	  "@semantic-release/github",
