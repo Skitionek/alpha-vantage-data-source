@@ -1,3 +1,11 @@
+## [2.2.41](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.40...v2.2.41) (2020-04-30)
+
+
+### Bug Fixes
+
+* CI to publish to github npm reppo? ([4cdaa35](https://github.com/Skitionek/alpha-vantage-data-source/commit/4cdaa35152c1843adab83388a8835805fba4df0f))
+* resign from type names in snaps ([25df3c4](https://github.com/Skitionek/alpha-vantage-data-source/commit/25df3c4b136fa42e04b9b99e021884121bfff847))
+
 ## [2.2.40](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.39...v2.2.40) (2020-04-24)
 
 
