@@ -1,3 +1,13 @@
+## [2.2.42](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.41...v2.2.42) (2020-04-30)
+
+
+### Bug Fixes
+
+* upgrade @babel/polyfill from 7.4.4 to 7.8.7 ([c2389e1](https://github.com/Skitionek/alpha-vantage-data-source/commit/c2389e1a2cb5c776c1b78586061e3a160440fab9))
+* upgrade @babel/polyfill from 7.4.4 to 7.8.7 ([fe8986f](https://github.com/Skitionek/alpha-vantage-data-source/commit/fe8986f9886b6b253136631e11ae457e361ab918))
+* upgrade dotenv from 8.0.0 to 8.2.0 ([3f35b3f](https://github.com/Skitionek/alpha-vantage-data-source/commit/3f35b3f759f7709597e69fbc157475963d74ad12))
+* upgrade dotenv from 8.0.0 to 8.2.0 ([d005b6f](https://github.com/Skitionek/alpha-vantage-data-source/commit/d005b6fd666d0d3c78cabe22e3ecf6dea187e68f))
+
 ## [2.2.41](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.40...v2.2.41) (2020-04-30)
 
 
