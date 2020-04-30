@@ -1,5 +1,5 @@
 # AlphaVantage
-[![Greenkeeper badge](https://badges.greenkeeper.io/Skitionek/alpha-vantage-data-source.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/Skitionek/alpha-vantage-data-source/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Skitionek/alpha-vantage-data-source?targetFile=package.json)
 [![Intergation test](https://github.com/skitionek/alpha-vantage-data-source/workflows/Intergation%20test/badge.svg)](https://github.com/Skitionek/alpha-vantage-data-source/actions?query=workflow%3A%22Intergation+test%22)
 [![CI](https://github.com/skitionek/alpha-vantage-data-source/workflows/CI/badge.svg)](https://github.com/Skitionek/alpha-vantage-data-source/actions?query=workflow%3ACI)
 
