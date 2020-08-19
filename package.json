@@ -138,7 +138,8 @@
 		"nodemon": "^2.0.0",
 		"reflect-metadata": "^0.1.13",
 		"semantic-release": "^17.0.6",
-		"snapshot-diff": "^0.6.0"
+		"snapshot-diff": "^0.6.0",
+		"graphql": "^15.3.0"
 	},
 	"dependencies": {
 		"@babel/polyfill": "^7.8.7",
@@ -149,7 +150,7 @@
 		"lodash.merge": "^4.6.2"
 	},
 	"peerDependencies": {
-		"graphql": "^14.2.1"
+		"graphql": "^15.3.0"
 	},
 	"jshintConfig": {
 		"node": true,

@@ -3,11 +3,3 @@
 /lib
 /mocks
 /index.js*
-
-### JetBrainsInversed.gitignore template
-.idea
-!.idea/runConfigurations
-!.idea/codeStyles
-!.idea/watcherTasks.xml
-!.idea/inspectionProfiles
-!.idea/dictionaries

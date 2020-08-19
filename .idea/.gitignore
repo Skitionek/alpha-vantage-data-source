@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+### .idea.gitignore template
+*
+!.gitignore
+!runConfigurations
+!runConfigurations/*
+!codeStyles
+!codeStyles/*
+!watcherTasks.xml
+!inspectionProfiles
+!inspectionProfiles/*
+!dictionaries
+!dictionaries/*
