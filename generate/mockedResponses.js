@@ -44,7 +44,7 @@ function mockStructureData(obj) {
 	if (Array.isArray(obj)) {
 		return [mockStructureData(obj[0])]
 	}
-	if (typeof obj === 'object' && obj !== null) {
+	if (typeof obj === 'object' && obj !== undefined) {
 		const result = {};
 		Object.entries(obj).forEach(([k, v]) => {
 			result[k] = mockStructureData(v);
@@ -66,7 +66,7 @@ function mockStructureData(obj) {
 			return obj
 		}
 	}
-	return null
+	return undefined
 }
 
 ['data', 'crypto', 'forex', 'performance', 'technical'].forEach(groupKey => {
