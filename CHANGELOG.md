@@ -1,3 +1,10 @@
+## [2.2.43](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.42...v2.2.43) (2020-08-19)
+
+
+### Bug Fixes
+
+* bump deps (passing tests) add pycharm files for my ease of maintain ([ed9dbf9](https://github.com/Skitionek/alpha-vantage-data-source/commit/ed9dbf9ae78b15e286fcc5bf49d27d100d08dd84))
+
 ## [2.2.42](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.41...v2.2.42) (2020-04-30)
 
 
