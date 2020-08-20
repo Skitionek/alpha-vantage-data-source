@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.43...v2.3.0) (2020-08-20)
+
+
+### Features
+
+* use undefined instead of nulls ([8f61570](https://github.com/Skitionek/alpha-vantage-data-source/commit/8f61570307f968855ac0b5d6b2bd239483ea7d62))
+
 ## [2.2.43](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.42...v2.2.43) (2020-08-19)
 
 
