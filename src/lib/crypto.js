@@ -38,7 +38,7 @@ module.exports = AlphaVantageAPI => {
 	};
 
 	const polish_realtime_currency_exchange_rate = data =>
-		mapValues(data.realtime_currency_exchange_rate, v => v === '-' ? null : v);
+		mapValues(data.realtime_currency_exchange_rate, v => v === '-' ? undefined : v);
 
 	return {
 		exchangeRates({ from_currency, to_currency }) {

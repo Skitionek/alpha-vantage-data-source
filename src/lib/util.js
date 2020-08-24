@@ -23,7 +23,8 @@ module.exports = AlphaVantageAPI => {
 		} else if (obj instanceof Object) {
 			const result = {};
 			Object.entries(obj).forEach(([k, v]) => {
-				result[formatKey(k)] = polishKeys(v)
+				const calc_val = polishKeys(v)
+				result[formatKey(k)] = calc_val === null ? undefined : calc_val
 			});
 			return result
 		}
