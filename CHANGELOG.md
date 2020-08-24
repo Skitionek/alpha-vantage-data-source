@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.3.0...v2.3.1) (2020-08-24)
+
+
+### Bug Fixes
+
+* residue nulls ([b626f33](https://github.com/Skitionek/alpha-vantage-data-source/commit/b626f337af6f53b5d2cfe6722cbaf1d8296d2078))
+
 # [2.3.0](https://github.com/Skitionek/alpha-vantage-data-source/compare/v2.2.43...v2.3.0) (2020-08-20)
 
 
