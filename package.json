@@ -144,7 +144,7 @@
 	"dependencies": {
 		"@babel/polyfill": "^7.8.7",
 		"apollo-datasource-rest": "^0.7.0",
-		"dotenv": "^8.2.0",
+		"dotenv": "^8.6.0",
 		"jsonic": "^0.3.1",
 		"lodash.mapvalues": "^4.6.0",
 		"lodash.merge": "^4.6.2"
